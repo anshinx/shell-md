@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "63ef3b9c-05f1-4b00-812a-fede2372efc7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 44.45 46.99)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50738c10-df11-4c1b-b08b-4685e06e61bf")
+		(property "Sheetname" "V_IN"
+			(at 44.45 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vin.kicad_sch"
+			(at 44.45 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 92.71)
+		(size 15.24 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c8dbef5-e40c-461c-862c-3f756f947d60")
+		(property "Sheetname" "FET"
+			(at 181.61 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfets.kicad_sch"
+			(at 181.61 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 43.18)
+		(size 36.83 73.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af3e23d8-6134-404f-864a-8d023ef5971b")
+		(property "Sheetname" "MCU"
+			(at 110.49 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 110.49 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

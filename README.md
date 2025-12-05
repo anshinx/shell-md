@@ -53,7 +53,9 @@ Isınmayı yönetmek için kademeli düşüm uygulanmıştır:
 * **Gate Dirençleri:** Simülasyon sonucuna göre 10Ω - 22Ω arası (Ringing'i önlemek için).
 
 ### Konnektörler : 
+----
 LSIDE 
+--
 1 -> 3V3
 2 -> HIZLANMA PEDALI (GAZ DEMEK İSTEMEDİM ELEKTRİKLİ YA :D)
 3 -> GND
@@ -67,8 +69,9 @@ LSIDE
 1 -> 3V3 
 2 -> REGEN
 3 -> GND
---
+
 R SIDE
+--
 1 -> USB +5V
 2 -> USB ID
 3 -> USB +

@@ -43,27 +43,11 @@ Kart üzerindeki kritik konnektör ve pin bağlantıları şöyledir:
 * **Cruise Control:** Dijital Giriş (Active Low) - `PE6`
 
 ### Haberleşme
-* **SWD:** Programlama ve Debug (`3V3`, `GND`, `SWDIO`, `SWCLK`, `NRST`).
+* **SWD:** Programlama ve Debug (`3V3`, `GND`, `SWDIO`, `SWCLK`).
 * **CAN Bus:** Sonlandırma direnci (120Ω) jumper ile seçilebilir.
 * **UART (Bluetooth):** `PC10` (TX) ve `PC11` (RX).
 
-## ⚠️ Güvenlik ve Montaj Uyarıları
 
-1.  **VCAP Kapasitörleri:** STM32'nin stabil çalışması için VCAP pinlerindeki (Pin 49, 73) 2.2µF kapasitörler işlemciye çok yakın monte edilmelidir.
-2.  **Voltaj Sırası:** Sisteme enerji verirken önce **3.3V (Lojik)**, ardından **12V (Gate)** ve en son **Yüksek Voltaj (Batarya)** verilmesi önerilir.
-3.  **USB Bağlantısı:** USB Type-C portu üzerinden işlemciye kod atılabilir ancak **VBUS** hattının harici 5V kaynağı ile çakışmamasına dikkat edilmelidir.
-4.  **Soğutma:** MOSFET'ler paralel yapıda olsa da, yüksek akımlarda (kalkış anı) pasif soğutucu blok kullanılması tavsiye edilir.
-
-## 📂 Depo Yapısı
-
-* `/schematic`: KiCad şematik (.kicad_sch) dosyaları.
-* `/pcb`: PCB tasarım (.kicad_pcb) dosyaları.
-* `/library`: Projeye özel sembol ve kılıf kütüphaneleri.
-* `/docs`: Datasheetler ve ek dokümantasyon.
-
-## 🤝 Katkıda Bulunma
-
-Hatalı bir bağlantı fark ederseniz veya iyileştirme öneriniz varsa lütfen bir **Issue** açın veya **Pull Request** gönderin.
 
 ---
 Anshinx 

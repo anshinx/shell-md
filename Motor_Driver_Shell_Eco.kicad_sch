@@ -6,8 +6,58 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 44.45 46.99)
-		(size 30.48 15.24)
+		(at 41.91 68.58)
+		(size 41.91 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47456917-9d2b-40cb-8a9e-ce53d71da470")
+		(property "Sheetname" "UTILITY"
+			(at 41.91 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "utility.kicad_sch"
+			(at 41.91 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 46.99)
+		(size 43.18 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +72,7 @@
 		)
 		(uuid "50738c10-df11-4c1b-b08b-4685e06e61bf")
 		(property "Sheetname" "V_IN"
-			(at 44.45 46.2784 0)
+			(at 41.91 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +81,7 @@
 			)
 		)
 		(property "Sheetfile" "vin.kicad_sch"
-			(at 44.45 62.8146 0)
+			(at 41.91 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +90,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 44.45 46.99 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,6 +143,48 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 92.71)
+		(size 43.18 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2c879b2-b56b-45e0-81e5-a32d229bc86e")
+		(property "Sheetname" "HALL_INPUT"
+			(at 40.64 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_input.kicad_sch"
+			(at 40.64 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(page "5")
 				)
 			)
 		)

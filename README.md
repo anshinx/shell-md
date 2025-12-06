@@ -1,80 +1,69 @@
- ##Pinout Tablosu (Full Liste)
+# Shell Eco-Marathon BLDC Motor Sürücü Kartı (Shell-MD)
 
-| Kategori            | Fonksiyon             | Pin     | Perifer         | PCB / Notlar                        |
-| :------------------ | :-------------------- | :------ | :-------------- | :---------------------------------- |
-| **PWM (Power)**     | **HS MOSFET A**       | `PE9`   | TIM1_CH1        | "Port E (Layout Kolaylığı)"         |
-|                     | **HS MOSFET B**       | `PE11`  | TIM1_CH2        | "                                   |
-|                     | **HS MOSFET C**       | `PE13`  | TIM1_CH3        | "                                   |
-|                     | **LS MOSFET A**       | `PE8`   | TIM1_CH1N       | "                                   |
-|                     | **LS MOSFET B**       | `PE10`  | TIM1_CH2N       | "                                   |
-|                     | **LS MOSFET C**       | `PE12`  | TIM1_CH3N       | "                                   |
-| **Güvenlik**        | **ACİL STOP (Kill)**  | `PB12`  | TIM1_BKIN       | **Donanımsal Koruma** (PWM'i Keser) |
-| **Kontrol (Input)** | **FREN (Switch)**     | `PE2`   | GPIO_Input      | Mekanik fren algılama               |
-|                     | **CRUISE (Buton)**    | `PE3`   | GPIO_Input      | Hız Sabitleme (Bas-Çek)             |
-| **Analog (ADC)**    | **AKIM SENS.**        | `PA0`   | ADC1_IN0        | Sensör çıkışı (Max 3.3V)            |
-|                     | **BATARYA V.**        | `PA1`   | ADC1_IN1        | Gerilim bölücü ile                  |
-|                     | **GAZ / PEDAL**       | `PA2`   | ADC1_IN2        | Gaz kolu/pedalı                     |
-|                     | **SICAKLIK**          | `PA3`   | ADC1_IN3        | NTC Okuma                           |
-|                     | **REJEN (Pedal)**     | `PA4`   | ADC1_IN4        | **Analog Fren/Rejen Ayarı**         |
-| **Arayüz (UI)**     | **I2C SCL (Ekran)**   | `PB6`   | I2C1_SCL        | **4.7k Pull-Up Gerekli**            |
-|                     | **I2C SDA (Ekran)**   | `PB7`   | I2C1_SDA        | **4.7k Pull-Up Gerekli**            |
-|                     | **BUZZER**            | `PE1`   | GPIO_Output     | Transistör ile sürülmeli            |
-|                     | **STAT LED**          | `PE0`   | GPIO_Output     | Durum LED'i                         |
-| **Haberleşme**      | **CAN RX**            | `PB8`   | CAN1_RX         | **Transceiver Gerekli (TJA1050)**   |
-|                     | **CAN TX**            | `PB9`   | CAN1_TX         | **Transceiver Gerekli (TJA1050)**   |
-|                     | **BT TX (Telemetri)** | `PB10`  | USART3_TX       | Bluetooth Modülü                    |
-|                     | **BT RX (Telemetri)** | `PB11`  | USART3_RX       | Bluetooth Modülü                    |
-| **USB**             | **USB VBUS**          | `PA9`   | USB_OTG_FS_VBUS | 5V Algılama (Direnç ile)            |
-|                     | **USB ID**            | `PA10`  | USB_OTG_FS_ID   |                                     |
-|                     | **USB DM (-)**        | `PA11`  | USB_OTG_FS_DM   | Diferansiyel Çift                   |
-|                     | **USB DP (+)**        | `PA12`  | USB_OTG_FS_DP   | Diferansiyel Çift                   |
-| **Hall Sensör**     | **HALL A**            | `PC6`   | TIM3_CH1        | Pull-Up + Filtre Devresi            |
-|                     | **HALL B**            | `PC7`   | TIM3_CH2        | "                                   |
-|                     | **HALL C**            | `PC8`   | TIM3_CH3        | "                                   |
-| **Sistem**          | **SWDIO**             | `PA13`  | SYS_SWDIO       | Kod Yükleme                         |
-|                     | **SWCLK**             | `PA14`  | SYS_SWCLK       | Kod Yükleme                         |
-|                     | **OSC IN**            | `PH0`   | RCC_OSC_IN      | 8MHz Kristal                        |
-|                     | **OSC OUT**           | `PH1`   | RCC_OSC_OUT     | 8MHz Kristal                        |
-|                     | **NRST**              | `NRST`  | Reset           | Buton + 100nF                       |
-|                     | **BOOT0**             | `BOOT0` | Boot            | Buton + 10k PD                      |
+Bu depo, **Shell Eco-Marathon** araçları için özel olarak tasarlanmış, STM32 tabanlı, yüksek performanslı 3-Faz BLDC motor sürücü kartının **KiCad** donanım tasarım dosyalarını içerir.
 
+Proje, **Mitsuba M2096D** gibi yüksek verimli motorları sürmek ve araç telemetrisini yönetmek amacıyla geliştirilmiştir.
 
- **FET Topolojisi:** Half-Bridge (Yarım Köprü)
+## 🚀 Öne Çıkan Özellikler
 
- ### Voltaj Regülasyonu (Power Tree)
-Isınmayı yönetmek için kademeli düşüm uygulanmıştır:
-1.  **67.2V ➡️ 12V:** `LM5017` (Buck Converter) - *Ana yük, Gate Driver beslemesi.*
-2.  **12V ➡️ 5V:** `AP2204` (LDO) - *Sensörler, USB VBUS simülasyonu.*
-3.  **5V ➡️ 3.3V:** `XC6206` (LDO) - *STM32 MCU, Bluetooth, Ekran.*
+* **Güçlü İşlemci:** ARM Cortex-M3 tabanlı **STM32F205VGT6** (120MHz, 1MB Flash).
+* **Yüksek Akım Kapasitesi:** Faz başına 4 adet paralel MOSFET (**4+4+4 Topolojisi**) ile düşük $R_{DS(on)}$ ve minimum ısınma.
+* **Sağlam Gate Sürüşü:** **IR2110** High/Low Side sürücüler ve her MOSFET için ayrılmış Gate dirençleri ile parazitik osilasyon koruması.
+* **Gelişmiş İletişim:**
+    * **CAN Bus:** Araç içi haberleşme için izoleli **TJA1051** arayüzü.
+    * **Bluetooth:** Telemetri ve mobil ayar için **HM-10** (BLE) desteği.
+    * **USB Type-C:** Veri günlüğü ve konfigürasyon için USB 2.0 arayüzü.
+* **Sensör Arayüzleri:** Hall Sensörleri (Gürültü filtreli), Gaz Pedalı (Potansiyometre), Fren ve Hız Sabitleme (Cruise) girişleri.
 
- Gate Driver (IR2110)
-* **Bootstrap Diyotu:** `US1M` veya `ES1J` (Ultra Fast olmak zorunda).
-* **Bootstrap Kapasitörü:** 1µF - 2.2µF (Low ESR Seramik).
-* **Gate Dirençleri:** Simülasyon sonucuna göre 10Ω - 22Ω arası (Ringing'i önlemek için).
+## 🛠 Donanım Özellikleri (Hardware Specs)
 
-### Konnektörler : 
-----
-LSIDE 
---
-1 -> 3V3
-2 -> HIZLANMA PEDALI (GAZ DEMEK İSTEMEDİM ELEKTRİKLİ YA :D)
-3 -> GND
+| Bileşen | Model / Değer | Açıklama |
+| :--- | :--- | :--- |
+| **MCU** | STM32F205VGT6 | Ana kontrolcü. |
+| **MOSFET** | IXTP90N15T | 150V, 90A, TO-220 (Faz başına 4x High, 4x Low). |
+| **Gate Driver** | IR2110 | 2A High/Low Side Driver. |
+| **CAN Transceiver** | TJA1051 | 5V beslemeli, yüksek hızlı CAN PHY. |
+| **Bluetooth** | HM-10 / JDY-08 | UART üzerinden BLE haberleşmesi. |
+| **USB** | Type-C (16-Pin) | CC dirençli, Device modunda çalışır. |
+| **Besleme** | 12V & 3.3V | Harici regülatör girişi gerektirir. |
 
-1 -> FREN +
-2 -> FREN -
+## 🔌 Pinout ve Bağlantılar
 
-1 -> CRUISE CONTROL +
-2 -> CRUISE CONTROL -
+Kart üzerindeki kritik konnektör ve pin bağlantıları şöyledir:
 
-1 -> 3V3 
-2 -> REGEN
-3 -> GND
+### Motor & Güç
+* **DC Bus:** 16S Batarya (~67V) girişi.
+* **Faz Çıkışları:** Phase A, Phase B, Phase C (Vidalı Klemens).
+* **Hall Sensörleri:** 5 Pin (5V, GND, H1, H2, H3) - RC Filtreli.
 
-R SIDE
---
-1 -> USB +5V
-2 -> USB ID
-3 -> USB +
-4 -> USB - 
-5 -> USB GND
-  
+### Kontrol Arayüzleri
+* **Gaz Pedalı:** Analog Giriş (0-3.3V) - `PA2`
+* **Rejeneratif Fren:** Analog Giriş - `PA4`
+* **Fren Anahtarı:** Dijital Giriş (Active Low) - `PE5`
+* **Cruise Control:** Dijital Giriş (Active Low) - `PE6`
+
+### Haberleşme
+* **SWD:** Programlama ve Debug (`3V3`, `GND`, `SWDIO`, `SWCLK`, `NRST`).
+* **CAN Bus:** Sonlandırma direnci (120Ω) jumper ile seçilebilir.
+* **UART (Bluetooth):** `PC10` (TX) ve `PC11` (RX).
+
+## ⚠️ Güvenlik ve Montaj Uyarıları
+
+1.  **VCAP Kapasitörleri:** STM32'nin stabil çalışması için VCAP pinlerindeki (Pin 49, 73) 2.2µF kapasitörler işlemciye çok yakın monte edilmelidir.
+2.  **Voltaj Sırası:** Sisteme enerji verirken önce **3.3V (Lojik)**, ardından **12V (Gate)** ve en son **Yüksek Voltaj (Batarya)** verilmesi önerilir.
+3.  **USB Bağlantısı:** USB Type-C portu üzerinden işlemciye kod atılabilir ancak **VBUS** hattının harici 5V kaynağı ile çakışmamasına dikkat edilmelidir.
+4.  **Soğutma:** MOSFET'ler paralel yapıda olsa da, yüksek akımlarda (kalkış anı) pasif soğutucu blok kullanılması tavsiye edilir.
+
+## 📂 Depo Yapısı
+
+* `/schematic`: KiCad şematik (.kicad_sch) dosyaları.
+* `/pcb`: PCB tasarım (.kicad_pcb) dosyaları.
+* `/library`: Projeye özel sembol ve kılıf kütüphaneleri.
+* `/docs`: Datasheetler ve ek dokümantasyon.
+
+## 🤝 Katkıda Bulunma
+
+Hatalı bir bağlantı fark ederseniz veya iyileştirme öneriniz varsa lütfen bir **Issue** açın veya **Pull Request** gönderin.
+
+---
+Anshinx 

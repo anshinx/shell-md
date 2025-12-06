@@ -1806,22 +1806,16 @@
 		(uuid "08c6f929-b2f7-44b9-be4f-d3301bea5a7e")
 	)
 	(junction
-		(at 180.34 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a3ecbda-7f0d-483d-929c-c25887820eee")
-	)
-	(junction
 		(at 224.79 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d9ae2ad-15c8-41a0-b6d4-40e87b03735b")
 	)
 	(junction
-		(at 49.53 149.86)
+		(at 62.23 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "139a2443-a439-401d-a42a-8f6f4070f8b4")
+		(uuid "22f3cd51-da12-4e6a-8422-8fcf50ab7c3e")
 	)
 	(junction
 		(at 227.33 109.22)
@@ -1866,18 +1860,6 @@
 		(uuid "357460ee-7ae7-4ddd-98f4-d813252d816a")
 	)
 	(junction
-		(at 167.64 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35965b16-a56d-4748-b588-a87cee522905")
-	)
-	(junction
-		(at 46.99 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35b420a1-5bc8-4c6a-bbae-a7f468b1ffc5")
-	)
-	(junction
 		(at 180.34 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1902,16 +1884,16 @@
 		(uuid "3dcef260-1bbe-45b6-b6fb-2330cea26238")
 	)
 	(junction
+		(at 180.34 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1c6e44-8b00-4e02-b30f-38ab3298e45e")
+	)
+	(junction
 		(at 224.79 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "431f9dde-5c7e-4a0c-9230-3bc3b19daeda")
-	)
-	(junction
-		(at 62.23 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4470c135-dd2c-4f6b-bee5-6cab072352aa")
 	)
 	(junction
 		(at 106.68 134.62)
@@ -1942,12 +1924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "570f1426-d692-479d-a7f3-63dc45964762")
-	)
-	(junction
-		(at 59.69 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59b5c456-5e16-4ccf-ad6a-3d0c13f90dc0")
 	)
 	(junction
 		(at 104.14 46.99)
@@ -2098,6 +2074,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a2ab8d-fff8-430b-91f4-f500bd57dc14")
+	)
+	(junction
+		(at 59.69 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d799d293-db43-4fa6-9645-12f4c213ca96")
 	)
 	(junction
 		(at 106.68 132.08)
@@ -2284,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "180b73aa-2ac2-4ec1-a655-2301f8800744")
-	)
-	(wire
-		(pts
-			(xy 46.99 64.77) (xy 48.26 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19053c7b-000a-4533-868a-a9a6d92d4ccd")
 	)
 	(wire
 		(pts
@@ -2747,16 +2719,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 149.86) (xy 49.53 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5795f8c5-acc2-4d57-8a6e-30ae1a67e5a9")
-	)
-	(wire
-		(pts
 			(xy 224.79 116.84) (xy 227.33 116.84)
 		)
 		(stroke
@@ -2954,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "73746b0c-0e10-442e-983d-3e746842fa98")
-	)
-	(wire
-		(pts
-			(xy 45.72 64.77) (xy 46.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a57776-fd5a-4396-a25b-0d3c81c4632b")
 	)
 	(wire
 		(pts
@@ -3177,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 167.64 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9409cc-21dc-46fc-89cc-13851f3e5150")
-	)
-	(wire
-		(pts
 			(xy 71.12 52.07) (xy 71.12 39.37)
 		)
 		(stroke
@@ -3387,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 64.77)
+			(xy 45.72 59.69) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3437,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 107.95) (xy 166.37 113.03)
+			(xy 166.37 107.95) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3577,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 113.03) (xy 168.91 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90d227e-76be-48ba-beb3-1ef31b7e86eb")
-	)
-	(wire
-		(pts
 			(xy 106.68 132.08) (xy 110.49 132.08)
 		)
 		(stroke
@@ -3674,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "e2eefa50-a490-4700-b115-cbbf3cbfc9bd")
-	)
-	(wire
-		(pts
-			(xy 49.53 149.86) (xy 50.8 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66e0cbf-0d43-4230-a1c1-d13c3f4df0a5")
 	)
 	(wire
 		(pts
@@ -5054,7 +4976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 113.03 0)
+		(at 166.37 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5063,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "241d737a-16eb-49d8-858f-c80235c93020")
 		(property "Reference" "#PWR059"
-			(at 167.64 119.38 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,15 +4994,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 118.11 0)
+			(at 162.56 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 113.03 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 113.03 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 113.03 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,6 +5311,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 59.69 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328957fe-d8fa-47c5-aac3-113537a75a3d")
+		(property "Reference" "#PWR048"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0994c5-b59d-42e2-ba7c-e8bd24ad87f4")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 48.26 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad0e313-e4e2-462b-b3ec-0a7f089f5709")
+		(property "Reference" "#PWR088"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 54.61 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c933932c-e953-465b-81d4-0a89dc89e897")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 36.83 134.62 270)
 		(unit 1)
@@ -5531,7 +5587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 149.86 0)
+		(at 48.26 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5540,7 +5596,7 @@
 		(fields_autoplaced yes)
 		(uuid "42ba000e-6e90-4f56-83b4-d9b42ca5f8ed")
 		(property "Reference" "#PWR053"
-			(at 49.53 156.21 0)
+			(at 48.26 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 154.94 0)
+			(at 48.26 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 149.86 0)
+			(at 48.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 149.86 0)
+			(at 48.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 149.86 0)
+			(at 48.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,6 +5780,72 @@
 			(project ""
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 62.23 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4528e211-d8de-46d8-85a1-63e2bb2ecf83")
+		(property "Reference" "#PWR055"
+			(at 62.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 62.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5974310e-c51a-48f6-b32f-4d65ba24bf33")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6272,6 +6394,73 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 50.8 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6e436d-e029-4de7-bdfe-1e1e45ac2cbd")
+		(property "Reference" "#PWR086"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 57.15 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99fed8ca-0790-48ff-bb9b-19d7f34957e9")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7120,72 +7309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "889b4f1b-c219-4fc4-b78c-b661a9e8f303")
-		(property "Reference" "#PWR061"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32f7febc-9b1c-4736-aa3b-a92a288cff29")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VDC")
 		(at 222.25 73.66 0)
 		(unit 1)
@@ -7253,7 +7376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 64.77 0)
+		(at 45.72 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7262,7 +7385,7 @@
 		(fields_autoplaced yes)
 		(uuid "921605d2-50f2-4ef3-91fc-abd78501798e")
 		(property "Reference" "#PWR050"
-			(at 46.99 71.12 0)
+			(at 39.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,15 +7394,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 69.85 0)
+			(at 41.91 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 64.77 0)
+			(at 45.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 64.77 0)
+			(at 45.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 64.77 0)
+			(at 45.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,138 +8375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1bfeeda-a8d3-4ca8-9078-af1b2d11cbb5")
-		(property "Reference" "#PWR048"
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98c95af4-204e-4f70-89de-4556be03a9e2")
-		)
-		(instances
-			(project ""
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c95ae865-a7c0-42f8-baa2-99d98fdc9d9e")
-		(property "Reference" "#PWR055"
-			(at 62.23 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14d899ea-69d4-46b4-ae5e-d0fe3d737590")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-VDC")
 		(at 104.14 69.85 180)
 		(unit 1)
@@ -8518,6 +8510,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 180.34 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbeea396-874a-4c68-8457-a632f6a41578")
+		(property "Reference" "#PWR061"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9337447-8f2c-4cf0-b1ec-3df31d56885c")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 49.53 270)
 		(unit 1)
@@ -8579,6 +8637,72 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 168.91 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23ab3e2-1f4d-4cf3-b0b0-5900b36ec54e")
+		(property "Reference" "#PWR087"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 168.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "546e074f-077a-4394-a511-05d9c3c66e37")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)

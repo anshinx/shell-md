@@ -850,12 +850,6 @@
 		)
 	)
 	(junction
-		(at 72.39 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11af9fa9-9147-4450-853c-3f7ae6cb4780")
-	)
-	(junction
 		(at 120.65 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -878,12 +872,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3ded5dd-ad3f-4f7a-9df1-0b48cd2cb6e2")
-	)
-	(junction
-		(at 72.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a1433f-ddda-4a77-8d57-dff8b1664f7c")
 	)
 	(junction
 		(at 54.61 104.14)
@@ -945,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 72.39 81.28)
+			(xy 68.58 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1055,16 +1043,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 72.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d1796e-9084-4741-b855-a42b53057872")
-	)
-	(wire
-		(pts
 			(xy 57.15 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -1142,16 +1120,6 @@
 			(type default)
 		)
 		(uuid "9557869e-d2be-4030-9cdc-4f4ad547591d")
-	)
-	(wire
-		(pts
-			(xy 74.93 71.12) (xy 74.93 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979d5e01-1a05-4004-8297-1ecc6416cfcd")
 	)
 	(wire
 		(pts
@@ -1245,13 +1213,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 90.17) (xy 72.39 81.28)
+			(xy 74.93 81.2296) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc0c9a59-d501-4be1-b262-de84e03971a5")
+		(uuid "f7de5b41-b8c5-4c57-9383-3b8eac15ecd5")
 	)
 	(wire
 		(pts
@@ -2140,6 +2108,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 75.2418 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f7cc11-9d07-462c-a641-7161ac8db7d8")
+		(property "Reference" "#PWR089"
+			(at 81.5918 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.0518 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.2418 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.2418 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 75.2418 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50dd49ee-e80d-4572-b60f-ddb5c56d4bf1")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/a2c879b2-b56b-45e0-81e5-a32d229bc86e"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 151.13 104.14 0)
 		(unit 1)
@@ -2282,6 +2317,73 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/a2c879b2-b56b-45e0-81e5-a32d229bc86e"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 81.2296 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed526fac-c8d1-403b-b9b5-bfb82da9e532")
+		(property "Reference" "#PWR085"
+			(at 81.28 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 81.2295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c697b02-f29f-4cf1-8140-91cf9f283680")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/a2c879b2-b56b-45e0-81e5-a32d229bc86e"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)

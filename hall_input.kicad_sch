@@ -1322,7 +1322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 80.3148 0)
 			(effects
 				(font
@@ -1389,7 +1389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 89.2048 0)
 			(effects
 				(font
@@ -1439,7 +1439,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15e9d420-bfc9-47a5-b77e-671319f0a7bd")
 		(property "Reference" "R16"
 			(at 133.35 81.2799 0)
@@ -1459,7 +1458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.032 82.55 90)
 			(effects
 				(font
@@ -1526,7 +1525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 70.1548 0)
 			(effects
 				(font
@@ -1594,7 +1593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 103.378 90)
 			(effects
 				(font
@@ -1664,7 +1663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.712 82.55 90)
 			(effects
 				(font
@@ -1732,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 105.918 90)
 			(effects
 				(font
@@ -2065,7 +2064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.52 100.838 90)
 			(effects
 				(font
@@ -2109,7 +2108,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 75.2418 71.12 90)
+		(at 74.93 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2118,7 +2117,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8f7cc11-9d07-462c-a641-7161ac8db7d8")
 		(property "Reference" "#PWR089"
-			(at 81.5918 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 79.0518 71.1199 90)
+			(at 78.74 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.2418 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.2418 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 75.2418 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.872 82.55 90)
 			(effects
 				(font

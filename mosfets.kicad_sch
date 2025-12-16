@@ -1005,604 +1005,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -8.89 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "IAUS300N08S5N014ATMA1"
-				(at -8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Infineon Technologies"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "PowerSMD-8 Infineon Technologies"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "IAUS300N08S5N014ATMA1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "IAUS300N08S5N014ATMA1_0_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2671,7 +2073,7 @@
 	)
 	(text "IRS21867S\nDTime 520ns\nVCC 6.8-20\nTrise / ns -> 22min 38max  \nTfall /ns 18min 30max"
 		(exclude_from_sim no)
-		(at 191.77 31.496 0)
+		(at 314.452 30.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2128,7 @@
 	)
 	(text "IRS21867S\nDTime 520ns\nVCC 6.8-20\nTrise / ns -> 22min 38max  \nTfall /ns 18min 30max"
 		(exclude_from_sim no)
-		(at 192.024 18.288 0)
+		(at 314.706 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,40 +2150,10 @@
 		(uuid "08c6f929-b2f7-44b9-be4f-d3301bea5a7e")
 	)
 	(junction
-		(at 129.54 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0af58aee-d40d-426d-80cd-bea68e2609a7")
-	)
-	(junction
-		(at 129.54 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b62169f-319e-4bb3-8431-dfbf34a61565")
-	)
-	(junction
 		(at 106.68 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d9ae2ad-15c8-41a0-b6d4-40e87b03735b")
-	)
-	(junction
-		(at 129.54 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "185104b6-2816-424b-9e46-a7cd1c430721")
-	)
-	(junction
-		(at 129.54 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1be8222f-734a-4a9e-b15a-67bbfe70f4be")
-	)
-	(junction
-		(at 129.54 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d88cd47-7931-435e-abe8-2b37a29261e5")
 	)
 	(junction
 		(at 109.22 264.16)
@@ -2802,12 +2174,6 @@
 		(uuid "38019396-9b48-44e2-98c0-3e45abbf04e1")
 	)
 	(junction
-		(at 102.87 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cfda018-741a-4282-85f4-83b50e383164")
-	)
-	(junction
 		(at 62.23 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2820,16 +2186,16 @@
 		(uuid "431f9dde-5c7e-4a0c-9230-3bc3b19daeda")
 	)
 	(junction
+		(at 102.87 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dede1ed-b043-4d93-9e84-d152929d76cf")
+	)
+	(junction
 		(at 73.66 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "519ca0c4-8bc9-4574-8c0c-2f8e8ed208b4")
-	)
-	(junction
-		(at 129.54 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59fd0126-bc7a-417f-b5f0-1e748dedd6f9")
 	)
 	(junction
 		(at 76.2 245.11)
@@ -2838,40 +2204,22 @@
 		(uuid "60f7ca43-91a7-40f5-989a-252959c6c960")
 	)
 	(junction
-		(at 129.54 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6293b220-5c3c-4d45-936e-4d067080df9f")
-	)
-	(junction
-		(at 129.54 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69d30c4e-9d53-4f78-9000-d7a26617d788")
-	)
-	(junction
 		(at 73.66 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ba23968-412a-404a-b7a3-55619b7be9c8")
 	)
 	(junction
-		(at 129.54 33.02)
+		(at 91.44 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89994ceb-8795-4117-b821-cb6b1f4f26ec")
+		(uuid "7e69b849-8ad1-41a9-a009-461c43029a43")
 	)
 	(junction
-		(at 129.54 118.11)
+		(at 101.6 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90dbc6b3-e485-4f95-9a8a-40f212d7effc")
-	)
-	(junction
-		(at 129.54 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91b6c0d1-9bb2-46e2-8e42-73f91a846dec")
+		(uuid "87c9815a-6bad-412a-9d79-c91856054a96")
 	)
 	(junction
 		(at 62.23 255.27)
@@ -2880,16 +2228,16 @@
 		(uuid "93ce0772-5125-4031-994d-447ba0379724")
 	)
 	(junction
-		(at 102.87 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9514710f-304c-4568-9447-52e4e55af901")
-	)
-	(junction
 		(at 106.68 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "957d60ac-5710-4fc9-aa01-07b618878039")
+	)
+	(junction
+		(at 92.71 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f1e051-38c8-4021-b973-edf97ce9b3e4")
 	)
 	(junction
 		(at 106.68 252.73)
@@ -2904,22 +2252,16 @@
 		(uuid "ab61daf3-b36d-4aec-a95e-b0b5245c695a")
 	)
 	(junction
-		(at 102.87 102.87)
+		(at 102.87 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abb06b22-1cb7-44cf-966c-dcbe4955f69e")
+		(uuid "aea2cd82-b083-43c9-b756-1d8d605a3362")
 	)
 	(junction
 		(at 96.52 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af3ddf2b-9705-4b6c-814f-cb0d9b30d062")
-	)
-	(junction
-		(at 129.54 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9c951e4-5e13-48f3-8a4b-10db7af415ac")
 	)
 	(junction
 		(at 110.49 242.57)
@@ -2934,32 +2276,20 @@
 		(uuid "c6349086-bc24-41ef-bd48-b35dd1cb2f02")
 	)
 	(junction
-		(at 129.54 22.86)
+		(at 91.44 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5c97151-037c-4545-85e1-127e23f8466e")
+		(uuid "d6fc6aa4-0597-4689-bad9-c59639a13d87")
 	)
 	(junction
-		(at 129.54 43.18)
+		(at 102.87 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7786b30-281d-4f64-9fd8-4c4398c805f0")
+		(uuid "e0aa0bbc-f916-4b88-84be-8ebf67ed6280")
 	)
-	(junction
-		(at 129.54 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb11f4bb-6db0-4322-90d7-faa0fc175217")
-	)
-	(wire
-		(pts
-			(xy 106.68 140.97) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013ed6dd-aac8-4dd7-878a-0e59f4f51263")
+	(no_connect
+		(at 43.18 255.27)
+		(uuid "dba9aef1-80fb-47c7-94a8-9cd97c70479a")
 	)
 	(wire
 		(pts
@@ -2983,26 +2313,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 142.24) (xy 148.59 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02bc6a42-06ef-4e6c-98a0-99c8f4741166")
-	)
-	(wire
-		(pts
-			(xy 142.24 30.48) (xy 143.51 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036b8b73-1669-4759-881c-c2d4a86ee9bd")
-	)
-	(wire
-		(pts
 			(xy 29.21 243.84) (xy 30.48 243.84)
 		)
 		(stroke
@@ -3023,23 +2333,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 162.56) (xy 129.54 162.56)
+			(xy 93.98 90.17) (xy 91.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "097e35ea-4f60-489a-b7ce-aa0a6a20d90e")
-	)
-	(wire
-		(pts
-			(xy 105.41 46.99) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10752111-45fe-47e6-a2a9-36d759c2d1f8")
+		(uuid "0fb7ec37-d44b-4b6e-8cbd-a7a6866dd746")
 	)
 	(wire
 		(pts
@@ -3063,23 +2363,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 102.87) (xy 102.87 102.87)
+			(xy 60.96 102.87) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16e36063-068d-429a-b90a-67e3539d1404")
-	)
-	(wire
-		(pts
-			(xy 142.24 170.18) (xy 143.51 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1776e9b6-8802-458d-9f56-859f46b6820e")
 	)
 	(wire
 		(pts
@@ -3093,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 143.51) (xy 93.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae209b7-a4d3-4dce-8ee8-bfefa44b7a7d")
+	)
+	(wire
+		(pts
 			(xy 85.09 264.16) (xy 85.09 262.89)
 		)
 		(stroke
@@ -3103,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc8e95e-bf5b-4349-ad22-5b9b29db08ec")
-	)
-	(wire
-		(pts
 			(xy 73.66 262.89) (xy 76.2 262.89)
 		)
 		(stroke
@@ -3120,16 +2410,6 @@
 			(type default)
 		)
 		(uuid "1ecf9cce-ae6a-484c-a258-9bcd92cf7612")
-	)
-	(wire
-		(pts
-			(xy 111.76 107.95) (xy 129.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20936402-b775-49c3-83ed-43cfe7cc5cc5")
 	)
 	(wire
 		(pts
@@ -3173,16 +2453,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 134.62 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2692dde9-1af4-4541-89f1-0e3da6fe0588")
-	)
-	(wire
-		(pts
 			(xy 60.96 43.18) (xy 60.96 38.1)
 		)
 		(stroke
@@ -3193,43 +2463,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 134.62 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b72f1f8-606d-41bd-a7e2-1e553188fb2e")
-	)
-	(wire
-		(pts
-			(xy 60.96 30.48) (xy 95.25 30.48)
+			(xy 60.96 30.48) (xy 92.71 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d83953d-ec19-4b28-8492-e309589cf0a6")
-	)
-	(wire
-		(pts
-			(xy 129.54 102.87) (xy 129.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e617b0d-3487-4c94-9dab-96f64860b17d")
-	)
-	(wire
-		(pts
-			(xy 105.41 111.76) (xy 106.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0adeb0-7001-4f93-a37f-cdffb6314e30")
 	)
 	(wire
 		(pts
@@ -3243,43 +2483,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 152.4) (xy 129.54 157.48)
+			(xy 102.87 95.25) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35a5f6b7-6a87-42cc-984d-454726b663fc")
-	)
-	(wire
-		(pts
-			(xy 106.68 21.59) (xy 106.68 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391af629-9743-4ed6-a5a0-1784796ce801")
-	)
-	(wire
-		(pts
-			(xy 111.76 22.86) (xy 129.54 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bedba73-cbcb-418a-8584-de450bf54167")
-	)
-	(wire
-		(pts
-			(xy 95.25 111.76) (xy 97.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c53a8eb-d621-4b87-8627-4871891282fa")
+		(uuid "3a84a049-aeb1-47cf-a763-03fa80cb4046")
 	)
 	(wire
 		(pts
@@ -3303,26 +2513,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "401718d6-3996-4fe6-8ef2-068cbdf5d3cd")
-	)
-	(wire
-		(pts
-			(xy 133.35 166.37) (xy 134.62 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b920cc-c15c-428b-9435-edfb6d430821")
-	)
-	(wire
-		(pts
 			(xy 96.52 250.19) (xy 106.68 250.19)
 		)
 		(stroke
@@ -3340,26 +2530,6 @@
 			(type default)
 		)
 		(uuid "44392c79-8fb7-4c05-ae47-7298cc41e8f8")
-	)
-	(wire
-		(pts
-			(xy 105.41 166.37) (xy 106.68 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44fe2407-f047-411a-8d09-42521417207e")
-	)
-	(wire
-		(pts
-			(xy 111.76 53.34) (xy 129.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c1bb2d-58f4-49f6-8103-b4b985754875")
 	)
 	(wire
 		(pts
@@ -3383,53 +2553,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 149.86) (xy 143.51 149.86)
+			(xy 91.44 95.25) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b6ab911-9098-4d52-b176-963e45dffea9")
-	)
-	(wire
-		(pts
-			(xy 111.76 172.72) (xy 129.54 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e98e095-bb21-4cde-91cd-7268fad9e85b")
-	)
-	(wire
-		(pts
-			(xy 129.54 38.1) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ebdafdf-e768-4976-9b82-3c5377d1241c")
-	)
-	(wire
-		(pts
-			(xy 104.14 140.97) (xy 106.68 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee4dd00-3925-440e-ac5e-23e99726fe48")
-	)
-	(wire
-		(pts
-			(xy 111.76 87.63) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502e7542-36c9-4445-a847-31bfa2447dfa")
+		(uuid "4d8450c8-7aaf-4723-96c7-e42583d08b98")
 	)
 	(wire
 		(pts
@@ -3443,16 +2573,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 157.48) (xy 129.54 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51204039-e2ad-44c2-aee9-4209b0e43cf3")
-	)
-	(wire
-		(pts
 			(xy 73.66 257.81) (xy 76.2 257.81)
 		)
 		(stroke
@@ -3460,16 +2580,6 @@
 			(type default)
 		)
 		(uuid "546d2055-6c74-4f82-aab4-99e1c225bd3e")
-	)
-	(wire
-		(pts
-			(xy 104.14 21.59) (xy 106.68 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554e21e3-c237-4a78-8bb4-4e3a5af07943")
 	)
 	(wire
 		(pts
@@ -3493,17 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 107.95) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5996ce1e-9af0-4b2b-88a5-367445c8e3dd")
-	)
-	(wire
-		(pts
-			(xy 102.87 149.86) (xy 102.87 157.48)
+			(xy 101.6 149.86) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3533,26 +2633,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2330dc-ef00-4b3c-9107-bde76176e2b7")
-	)
-	(wire
-		(pts
-			(xy 104.14 86.36) (xy 106.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7d6621-a912-4d32-8b9d-0c4025a64352")
-	)
-	(wire
-		(pts
 			(xy 97.79 269.24) (xy 106.68 269.24)
 		)
 		(stroke
@@ -3560,16 +2640,6 @@
 			(type default)
 		)
 		(uuid "620b5265-9abc-4ae9-bde0-23beeb7db1ea")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 148.59 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cb9575-fb8e-497f-bee5-0b35c7e8b1f3")
 	)
 	(wire
 		(pts
@@ -3593,36 +2663,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 157.48) (xy 129.54 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6882cf04-a57e-4297-bce2-eb39f5cb6811")
-	)
-	(wire
-		(pts
-			(xy 102.87 38.1) (xy 129.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694d7282-a66d-40c3-9ab5-9157f76b30b6")
-	)
-	(wire
-		(pts
-			(xy 111.76 97.79) (xy 129.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6c5f1e-4990-4eb9-b3f8-56818ac1384d")
-	)
-	(wire
-		(pts
 			(xy 109.22 257.81) (xy 83.82 257.81)
 		)
 		(stroke
@@ -3643,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 143.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709f77a7-637a-44cb-9649-ba4aabf0ad5b")
-	)
-	(wire
-		(pts
 			(xy 120.65 238.76) (xy 104.14 238.76)
 		)
 		(stroke
@@ -3663,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 157.48) (xy 102.87 157.48)
+			(xy 60.96 157.48) (xy 81.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3713,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 172.72) (xy 148.59 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc9a558-f16b-44c3-bf22-b012256509ea")
-	)
-	(wire
-		(pts
 			(xy 41.91 160.02) (xy 45.72 160.02)
 		)
 		(stroke
@@ -3733,13 +2753,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 166.37) (xy 106.68 170.18)
+			(xy 91.44 90.17) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80f80eaf-59f4-406a-99e4-85d6963c41b1")
+		(uuid "8115ac24-481f-42a8-9857-9bf6436a2530")
 	)
 	(wire
 		(pts
@@ -3753,13 +2773,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 143.51 50.8)
+			(xy 91.44 143.51) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82abb3a1-0522-482d-afbd-6d5ad89fbdd9")
+		(uuid "822d94da-ace7-4357-be4d-c9c9ce84c182")
 	)
 	(wire
 		(pts
@@ -3783,26 +2803,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 26.67) (xy 134.62 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e687e5-abde-421a-bb6e-5a2dc5de5966")
-	)
-	(wire
-		(pts
-			(xy 134.62 146.05) (xy 134.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb483ba-32fb-4f80-902f-a23b12c5c156")
-	)
-	(wire
-		(pts
 			(xy 41.91 40.64) (xy 45.72 40.64)
 		)
 		(stroke
@@ -3813,23 +2813,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57) (xy 143.51 115.57)
+			(xy 91.44 149.86) (xy 93.98 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e07a5b0-8579-4abf-b4c3-bfb96a99fae2")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 106.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9474ffb5-ff62-4bac-985f-829e49ae1167")
+		(uuid "8fb979d2-77f0-4398-8127-5c2cb3a48319")
 	)
 	(wire
 		(pts
@@ -3873,16 +2863,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 162.56) (xy 148.59 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983cf602-e100-4303-a575-3328c7f4d083")
-	)
-	(wire
-		(pts
 			(xy 60.96 110.49) (xy 73.66 110.49)
 		)
 		(stroke
@@ -3890,16 +2870,6 @@
 			(type default)
 		)
 		(uuid "9843fe18-27eb-4dc0-b7e0-c97eb721f06f")
-	)
-	(wire
-		(pts
-			(xy 129.54 33.02) (xy 129.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9880c7dd-3c08-44d5-a1f7-64d2a1f76dbb")
 	)
 	(wire
 		(pts
@@ -3913,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 34.29) (xy 92.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4db86f8-bd32-4af8-bbc3-5e7c044a24dc")
+	)
+	(wire
+		(pts
 			(xy 73.66 262.89) (xy 73.66 257.81)
 		)
 		(stroke
@@ -3920,16 +2900,6 @@
 			(type default)
 		)
 		(uuid "a5a241fb-8978-489e-8420-dfe0b9c78b5b")
-	)
-	(wire
-		(pts
-			(xy 95.25 171.45) (xy 95.25 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ae2d22-c077-47fa-943e-f1d6c510629d")
 	)
 	(wire
 		(pts
@@ -3953,13 +2923,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 134.62 50.8)
+			(xy 81.28 38.1) (xy 102.87 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9634c57-c11e-40c9-ac11-2228327b9166")
+		(uuid "a6cc8ef2-a211-4b8d-ad94-a17a4841ead5")
 	)
 	(wire
 		(pts
@@ -3983,33 +2953,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 148.59 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0552cc-f6ac-4d71-8bfe-481f5ca9f452")
-	)
-	(wire
-		(pts
-			(xy 60.96 38.1) (xy 102.87 38.1)
+			(xy 60.96 38.1) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab524f34-a7a5-48d8-b1f5-6e7f6bf0b0cc")
-	)
-	(wire
-		(pts
-			(xy 111.76 152.4) (xy 129.54 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abde7212-ca4d-43a2-b627-0eaf9a4f8592")
 	)
 	(wire
 		(pts
@@ -4053,26 +3003,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 142.24) (xy 129.54 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b392a6-285e-4998-85f7-949a6ad139d7")
-	)
-	(wire
-		(pts
-			(xy 129.54 102.87) (xy 158.75 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e9feed-41f0-4872-9603-88a4c30031d3")
-	)
-	(wire
-		(pts
 			(xy 58.42 257.81) (xy 73.66 257.81)
 		)
 		(stroke
@@ -4080,16 +3010,6 @@
 			(type default)
 		)
 		(uuid "b43a2128-6fe4-4e97-a004-30a6c1a08e54")
-	)
-	(wire
-		(pts
-			(xy 129.54 157.48) (xy 158.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d12bda-526b-4296-8bea-c9e6ddd50231")
 	)
 	(wire
 		(pts
@@ -4103,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 106.68 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5aa6c6d-1538-4213-a6a7-6049434061b8")
-	)
-	(wire
-		(pts
 			(xy 76.2 237.49) (xy 76.2 245.11)
 		)
 		(stroke
@@ -4120,56 +3030,6 @@
 			(type default)
 		)
 		(uuid "bb319850-6642-4813-a2de-3d9f3a25e872")
-	)
-	(wire
-		(pts
-			(xy 133.35 146.05) (xy 134.62 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc653f36-9b8f-4af8-9bd3-3ae6e4a13842")
-	)
-	(wire
-		(pts
-			(xy 111.76 118.11) (xy 129.54 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03986ab-e52d-4bc0-9513-0c932db34b3a")
-	)
-	(wire
-		(pts
-			(xy 95.25 46.99) (xy 97.79 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5029fae-60e4-4519-a391-92ad98566120")
-	)
-	(wire
-		(pts
-			(xy 134.62 26.67) (xy 134.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8550715-7d33-47a9-80fd-344648f84eca")
-	)
-	(wire
-		(pts
-			(xy 95.25 166.37) (xy 97.79 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f87689-2ab7-4a4e-97ff-d3fd0cf379b7")
 	)
 	(wire
 		(pts
@@ -4183,6 +3043,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 102.87) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b9cfd6-255b-42b4-b38e-57c9058642aa")
+	)
+	(wire
+		(pts
 			(xy 106.68 269.24) (xy 106.68 271.78)
 		)
 		(stroke
@@ -4193,23 +3063,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 95.25) (xy 95.25 95.25)
+			(xy 60.96 95.25) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb65d2ef-c4ba-4f69-9320-23859be806d5")
-	)
-	(wire
-		(pts
-			(xy 129.54 97.79) (xy 129.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc95619d-2c1d-4d03-b40e-39e938f5d325")
 	)
 	(wire
 		(pts
@@ -4233,13 +3093,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 134.62 91.44)
+			(xy 102.87 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1ceea33-ba8d-4037-aae3-1225916676c0")
+		(uuid "cee7e4d5-fd71-4a61-acec-bf77fa2e2ae4")
 	)
 	(wire
 		(pts
@@ -4253,17 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 116.84) (xy 95.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36e2268-0f49-4e9b-a808-8dd274644f80")
-	)
-	(wire
-		(pts
-			(xy 102.87 30.48) (xy 102.87 38.1)
+			(xy 102.87 30.48) (xy 102.87 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 149.86) (xy 95.25 149.86)
+			(xy 60.96 149.86) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4293,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 22.86) (xy 148.59 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbeb1bed-6492-4231-9dc1-ef34f879af22")
-	)
-	(wire
-		(pts
 			(xy 120.65 250.19) (xy 120.65 248.92)
 		)
 		(stroke
@@ -4310,26 +3150,6 @@
 			(type default)
 		)
 		(uuid "e07103ad-77c2-43a3-8538-94d33037bf18")
-	)
-	(wire
-		(pts
-			(xy 133.35 111.76) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e134b219-270a-4160-bec5-c4c9cddaed3d")
-	)
-	(wire
-		(pts
-			(xy 95.25 52.07) (xy 95.25 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e21007e4-3691-4e5f-b8dc-b18a98a3ad11")
 	)
 	(wire
 		(pts
@@ -4343,33 +3163,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 148.59 118.11)
+			(xy 101.6 143.51) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6ea5dce-3110-4cbc-ac88-c827d6182a1d")
-	)
-	(wire
-		(pts
-			(xy 106.68 111.76) (xy 106.68 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79d0221-1c7e-4706-b87c-f8bfdfa9e17f")
-	)
-	(wire
-		(pts
-			(xy 111.76 33.02) (xy 129.54 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80e14e1-56b4-4960-83a5-398eed5e8248")
+		(uuid "e62fc72c-3691-4100-8d39-12477930f552")
 	)
 	(wire
 		(pts
@@ -4380,16 +3180,6 @@
 			(type default)
 		)
 		(uuid "e8cb3b4a-645f-470b-9d6c-1e92671d1c49")
-	)
-	(wire
-		(pts
-			(xy 129.54 152.4) (xy 148.59 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb20542e-d1e0-4669-891b-0ca1e4d06532")
 	)
 	(wire
 		(pts
@@ -4433,16 +3223,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 134.62 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f072390c-9279-41a1-b67d-b788615260e9")
-	)
-	(wire
-		(pts
 			(xy 62.23 274.32) (xy 62.23 275.59)
 		)
 		(stroke
@@ -4463,23 +3243,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 102.87) (xy 129.54 102.87)
+			(xy 102.87 34.29) (xy 102.87 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f55bed6a-8353-4abc-98a4-234c3a75dff2")
+		(uuid "f9031760-7d47-4a2b-886c-97b47164132a")
 	)
 	(wire
 		(pts
-			(xy 129.54 53.34) (xy 148.59 53.34)
+			(xy 92.71 34.29) (xy 92.71 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8434751-4045-46be-929f-341f4f367602")
+		(uuid "fa0110aa-9c5e-400b-9e8c-53354e0e22ff")
 	)
 	(wire
 		(pts
@@ -4493,23 +3273,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 46.99) (xy 134.62 46.99)
+			(xy 102.87 90.17) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb89e157-8992-4240-9c53-73a32b09bda9")
-	)
-	(wire
-		(pts
-			(xy 129.54 38.1) (xy 158.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbaa61fe-8e1f-464a-a6ac-319469d0c64d")
+		(uuid "fda4ce03-2569-4371-a5f2-f61fa9c5c949")
 	)
 	(wire
 		(pts
@@ -4521,7 +3291,27 @@
 		)
 		(uuid "fe95438e-96ad-465a-8614-1a41f9f84226")
 	)
-	(label "H_MOS_OUT_A"
+	(wire
+		(pts
+			(xy 92.71 30.48) (xy 95.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb8d936-151b-4179-81e6-9507ed881a87")
+	)
+	(wire
+		(pts
+			(xy 88.9 157.48) (xy 101.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee10224-75dc-4228-ad4e-9928e3d35dd2")
+	)
+	(label "H_MOS_OUT_C"
 		(at 60.96 152.4 0)
 		(effects
 			(font
@@ -4541,7 +3331,7 @@
 		)
 		(uuid "4e9d1b64-379a-4cb9-ac59-573e6851dab5")
 	)
-	(label "H_MOS_OUT_A"
+	(label "H_MOS_OUT_B"
 		(at 60.96 97.79 0)
 		(effects
 			(font
@@ -4551,7 +3341,7 @@
 		)
 		(uuid "d7fc5b77-a443-4e0b-80ac-728e7f73f747")
 	)
-	(label "L_MOS_OUT_A"
+	(label "L_MOS_OUT_C"
 		(at 60.96 165.1 0)
 		(effects
 			(font
@@ -4561,7 +3351,7 @@
 		)
 		(uuid "d9cc21cb-16f8-46b3-beb9-313cfae3a331")
 	)
-	(label "L_MOS_OUT_A"
+	(label "L_MOS_OUT_B"
 		(at 60.96 110.49 0)
 		(effects
 			(font
@@ -4581,28 +3371,6 @@
 		)
 		(uuid "ff127718-08d5-4d9c-8575-554c1c34722f")
 	)
-	(global_label "L_MOS_OUT_A"
-		(shape input)
-		(at 133.35 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "034ea16d-f004-459e-9393-251bb964712a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "H_MOS_OUT_A"
 		(shape input)
 		(at 74.93 33.02 0)
@@ -4621,72 +3389,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_MOS_OUT_B"
-		(shape input)
-		(at 133.35 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e63ff18-2964-4c5e-af5b-e7e3c40074a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "H_MOS_OUT_C"
-		(shape input)
-		(at 96.52 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c694218-893f-405b-81c5-c164639b5679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5929 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_MOS_OUT_B"
-		(shape input)
-		(at 95.25 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22124a94-6fff-410a-b3c5-31990942cbd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6253 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4823,50 +3525,6 @@
 			)
 		)
 	)
-	(global_label "H_MOS_OUT_B"
-		(shape input)
-		(at 133.35 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b9cae32-322e-4a07-9875-13604c0178ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4229 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_MOS_OUT_C"
-		(shape input)
-		(at 95.25 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61693611-b04a-4e70-b451-b495fd67cdfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6253 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LS_MOS_C"
 		(shape input)
 		(at 41.91 160.02 180)
@@ -4911,46 +3569,24 @@
 			)
 		)
 	)
-	(global_label "L_MOS_OUT_C"
+	(global_label "Phase_B"
 		(shape input)
-		(at 133.35 166.37 180)
+		(at 102.87 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "74de5278-5a96-4d7c-9a22-bf53e80034b1")
+		(uuid "711af6fd-11e6-469e-9b06-647930122141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 166.37 0)
+			(at 113.7775 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "H_MOS_OUT_A"
-		(shape input)
-		(at 96.52 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8301ab40-c16e-4e55-b8f9-84649980b0f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5929 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4999,46 +3635,24 @@
 			)
 		)
 	)
-	(global_label "H_MOS_OUT_B"
+	(global_label "Phase_C"
 		(shape input)
-		(at 96.52 86.36 180)
+		(at 101.6 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "a01796dd-bb1e-444d-82cc-00fcfd390bae")
+		(uuid "ab2560ab-464e-4efb-8852-c14306fcc83e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5929 86.36 0)
+			(at 112.5075 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_MOS_OUT_A"
-		(shape input)
-		(at 95.25 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa6b66bb-e9a4-4573-a16f-ac3703914c7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6253 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5065,28 +3679,6 @@
 			)
 		)
 	)
-	(global_label "H_MOS_OUT_A"
-		(shape input)
-		(at 133.35 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be5e6534-6860-4b61-a611-1b1330fe6119")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4229 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LS_MOS_B"
 		(shape input)
 		(at 41.91 105.41 180)
@@ -5109,24 +3701,24 @@
 			)
 		)
 	)
-	(global_label "H_MOS_OUT_C"
+	(global_label "Phase_A"
 		(shape input)
-		(at 133.35 146.05 180)
+		(at 109.22 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e767e17b-8f9b-4408-8242-690dcdb28235")
+		(uuid "de7a2a3f-1867-422c-9023-c7c2faf24f43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4229 146.05 0)
+			(at 119.9461 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5154,224 +3746,13 @@
 		)
 	)
 	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05dfa36e-c096-463e-bb8d-4bdaa34b2bcb")
-		(property "Reference" "Q21"
-			(at 146.05 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.05 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b73cebe-6bed-4904-8c9f-48ef6adfad35")
-		)
-		(pin "7"
-			(uuid "155f3ea9-3b7f-4763-89d0-49252f639b94")
-		)
-		(pin "8"
-			(uuid "6ba128ed-d8bb-4268-aa3d-c19680a3d9fd")
-		)
-		(pin "6"
-			(uuid "986bcd89-b808-4446-9b82-d3d9ebdb1c21")
-		)
-		(pin "3"
-			(uuid "b4286cd4-4c8d-4695-b33c-c2a7cabf8786")
-		)
-		(pin "1"
-			(uuid "0c46b5b8-d290-4bce-a7b4-05b66ddfb4ce")
-		)
-		(pin "9"
-			(uuid "74db6619-807d-4adc-89ea-cce11d1131c7")
-		)
-		(pin "5"
-			(uuid "b42daf1e-7522-4cf4-a8db-a15030ca9bcb")
-		)
-		(pin "4"
-			(uuid "2cbcc3bc-715e-4d9c-bbeb-cfd07bcc581c")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRF4905")
 		(at 118.11 243.84 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "07fe59d6-f3fa-4c26-aab2-00e671333e60")
 		(property "Reference" "Q13"
 			(at 124.46 242.5699 0)
@@ -5443,10 +3824,10 @@
 		(lib_id "Device:D")
 		(at 62.23 242.57 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "0c9e2afd-1c79-4b95-b528-a4a26ea0e6ec")
 		(property "Reference" "D6"
 			(at 61.976 238.252 0)
@@ -5528,10 +3909,10 @@
 		(lib_id "Device:C")
 		(at 62.23 279.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d864534-49bb-40c3-bbb0-747cd463a726")
 		(property "Reference" "C43"
@@ -5598,10 +3979,10 @@
 		(lib_id "Device:R")
 		(at 36.83 252.73 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "10e79e2d-fc23-4f43-b255-e01acd198299")
 		(property "Reference" "R41"
 			(at 37.084 255.016 90)
@@ -5728,280 +4109,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 100.33 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "156eb41f-fbe1-40bb-a452-1ffa338acbf5")
-		(property "Reference" "R55"
-			(at 100.33 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 100.33 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 23.368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "997f9477-6d10-4058-ba9e-aae42e06e87b")
-		)
-		(pin "1"
-			(uuid "95eb1959-5b92-40c8-83da-0d28d4e7b439")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "165bb50c-6147-41e2-8945-a2ee7465f0e1")
-		(property "Reference" "R56"
-			(at 101.6 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 101.6 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b61a1c7-7638-4946-b62f-498dbaea4b91")
-		)
-		(pin "1"
-			(uuid "dc12501d-280a-4845-9243-399150abd8b1")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 161.29 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "197473e9-e1e9-4fab-aa6f-7eacfa9b6eb1")
-		(property "Reference" "H6"
-			(at 165.1 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHASE_A"
-			(at 165.1 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f7f75fd-56ba-4161-8c07-6b0aa82ae908")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-VDC")
-		(at 129.54 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5b6520-31a5-473f-9bab-2ecc06e8d692")
-		(property "Reference" "#PWR0103"
-			(at 129.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 129.54 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f01a4f1f-aa8f-4736-a001-14ec8d35ce1c")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-VDC")
 		(at 106.68 273.05 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21e5bbd8-ac5e-4651-b9bf-6ab6d62a9461")
 		(property "Reference" "#PWR064"
@@ -6064,10 +4178,10 @@
 		(lib_id "Device:R")
 		(at 80.01 257.81 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "224352e2-92bf-4f70-b75d-59d6b628158b")
 		(property "Reference" "R44"
 			(at 80.01 260.096 90)
@@ -6131,10 +4245,10 @@
 		(lib_id "Device:R")
 		(at 90.17 250.19 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "22d07288-0071-4d0a-b3d9-480c45e8467a")
 		(property "Reference" "R47"
 			(at 92.202 247.904 90)
@@ -6200,10 +4314,10 @@
 		(lib_id "power:GND")
 		(at 48.26 266.7 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "241d737a-16eb-49d8-858f-c80235c93020")
 		(property "Reference" "#PWR059"
@@ -6333,10 +4447,10 @@
 		(lib_id "Device:C")
 		(at 69.85 242.57 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2c2fb66b-9634-483d-a0c1-51aed9353154")
 		(property "Reference" "C44"
@@ -6398,44 +4512,32 @@
 		)
 	)
 	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 92.71 0)
+		(lib_id "Device:C")
+		(at 97.79 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2d4280d8-429d-4483-9463-bd98ab7df765")
-		(property "Reference" "Q6"
-			(at 109.22 85.852 0)
+		(uuid "2f404e6d-b115-411e-8478-9af5c60088c0")
+		(property "Reference" "C58"
+			(at 93.472 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 84.074 0)
+		(property "Value" "100uf"
+			(at 93.472 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 101.6 142.5448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,8 +4545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 92.71 0)
+		(property "Datasheet" "~"
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,157 +4554,25 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 92.71 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37b05fe3-f5ac-472d-909d-b97f2584fbfc")
-		)
-		(pin "7"
-			(uuid "8543c0be-7a99-4224-8f8d-b02027a65c64")
-		)
-		(pin "8"
-			(uuid "c9f921b1-8610-46ce-b178-4c8fa8ac9baa")
-		)
-		(pin "6"
-			(uuid "4be1a8f3-4cbb-46c0-a30e-6d2ed1190366")
-		)
-		(pin "3"
-			(uuid "b3908c6c-e378-40df-b581-922494caa724")
 		)
 		(pin "1"
-			(uuid "b8d02929-1487-4b3b-ac57-9431eb03c9d9")
+			(uuid "80b360cd-0a42-4b91-a44e-f90b106b4666")
 		)
-		(pin "9"
-			(uuid "33061554-f7d9-4c28-a395-d45490932b51")
-		)
-		(pin "5"
-			(uuid "76994647-77e9-454c-8121-0a7199374853")
-		)
-		(pin "4"
-			(uuid "8b9b7255-bf43-438c-8175-346a643bcef2")
+		(pin "2"
+			(uuid "a1ee25aa-df45-4c8f-9096-9c45424dbdd5")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q6")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -6764,74 +4734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d5d49a7-6025-484d-854c-5dc7d39e11a5")
-		(property "Reference" "R13"
-			(at 138.43 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80126d03-f47c-40b9-95a4-f2b1bb6e1753")
-		)
-		(pin "1"
-			(uuid "059cc031-9f99-4b8d-9317-1d01ca0f8faf")
-		)
-		(instances
-			(project ""
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 171.45 0)
 		(unit 1)
@@ -6892,428 +4794,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48c1bcf3-a4ca-4f29-8eed-c9c8c846ac74")
-		(property "Reference" "Q18"
-			(at 109.22 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "515fb611-e3e7-4657-868b-286e789d1a8b")
-		)
-		(pin "7"
-			(uuid "39162051-234e-4af3-9b16-36e851764588")
-		)
-		(pin "8"
-			(uuid "9b930ca0-973f-4f95-997c-92d6672a0196")
-		)
-		(pin "6"
-			(uuid "7e72c4aa-7f6f-4d94-8ec9-2ec2af762813")
-		)
-		(pin "3"
-			(uuid "1708ca01-cd00-44e8-9420-1fd0529af388")
-		)
-		(pin "1"
-			(uuid "bc6127eb-e658-4d12-b3de-fc3720b2322a")
-		)
-		(pin "9"
-			(uuid "6f8ed19e-5408-442a-93c3-b6b36d79778a")
-		)
-		(pin "5"
-			(uuid "5efefd50-acef-4b4d-ab01-710c48683f19")
-		)
-		(pin "4"
-			(uuid "5cd2e0b5-a724-43c7-a004-90cc480c5301")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5382c91d-ad16-4715-92f2-be3b570427b7")
-		(property "Reference" "Q19"
-			(at 109.22 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92c5ab76-f1b1-4735-b1df-fc11b3ac962d")
-		)
-		(pin "7"
-			(uuid "a62c8a54-3493-48ae-9bf9-1d9e1374f59f")
-		)
-		(pin "8"
-			(uuid "80df5988-977f-46ba-8be3-5bdc3e039d2a")
-		)
-		(pin "6"
-			(uuid "1d65023a-4c83-4953-a4aa-502a6cc0bb96")
-		)
-		(pin "3"
-			(uuid "abfa7770-96ea-40c0-ab64-d66fe5b21fbe")
-		)
-		(pin "1"
-			(uuid "7fa3abfa-6b75-42eb-a545-e740fbbaa07a")
-		)
-		(pin "9"
-			(uuid "5e0f17f5-5f65-411d-8103-91d53c338255")
-		)
-		(pin "5"
-			(uuid "17e3a475-4733-455d-b31b-0168424cdc2d")
-		)
-		(pin "4"
-			(uuid "081cd3d4-e041-406c-bdc6-2a27d1ba1406")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -7387,7 +4867,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 149.86 90)
+		(at 97.79 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7395,7 +4875,7 @@
 		(dnp no)
 		(uuid "5e360fc6-03a4-48fd-8458-a4507c480661")
 		(property "Reference" "C40"
-			(at 94.742 146.05 90)
+			(at 93.472 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,15 +4883,15 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 94.742 148.59 90)
+			(at 93.472 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
-			(at 102.87 148.8948 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 101.6 148.8948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +4900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 149.86 0)
+			(at 97.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +4909,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 149.86 0)
+			(at 97.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 102.87 94.2848 0)
 			(effects
 				(font
@@ -7523,10 +5003,10 @@
 		(lib_id "Device:R")
 		(at 36.83 250.19 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "6915ea02-bd1a-4915-88e8-0f88dfa7ecc7")
 		(property "Reference" "R40"
 			(at 36.83 248.158 90)
@@ -7676,205 +5156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 129.54 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6df77ea4-0a8d-4a9d-85fc-54fa77271492")
-		(property "Reference" "#PWR086"
-			(at 129.54 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 129.54 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 129.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4108d80-4a94-49de-b2a7-6412fab0e841")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 129.54 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70b3e750-cfb8-455b-a71a-5136aad4d0c5")
-		(property "Reference" "#PWR055"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 129.54 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 129.54 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ebfc179-4aa5-450c-a22f-7b798a5d479f")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 161.29 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73caf046-542a-463e-9168-8d8dc8f980c8")
-		(property "Reference" "H7"
-			(at 165.1 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHASE_C"
-			(at 165.1 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
-			(at 161.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 161.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bceeb405-8074-4aff-b5a2-deae2b315b2d")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 53.34 90.17 0)
 		(unit 1)
@@ -7965,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 102.87 29.5148 0)
 			(effects
 				(font
@@ -8008,99 +5289,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 161.29 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8355095f-e589-4c6e-95ff-811049817be8")
-		(property "Reference" "H4"
-			(at 165.1 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHASE_B"
-			(at 165.1 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "396f89f3-5296-48f9-92d3-4e3199ff2cc6")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 100.33 140.97 90)
+		(at 78.74 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "844f7a48-96aa-4eee-9933-a2e71fa60af1")
-		(property "Reference" "R34"
-			(at 100.33 138.43 90)
+		(uuid "7b32af55-9f95-41d8-8652-d9d37e90bf09")
+		(property "Reference" "R27"
+			(at 78.74 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 100.33 140.97 90)
+		(property "Value" "10R"
+			(at 78.74 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 142.748 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 78.74 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 140.97 0)
+			(at 78.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 140.97 0)
+			(at 78.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,437 +5341,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ea9ea07-2b53-4a10-bbc1-b82a3aa10726")
+			(uuid "ef5eb9f7-dd3b-48e8-9a76-74a2aeac7483")
 		)
 		(pin "1"
-			(uuid "5d9903ca-7ef2-496d-b438-1e6406e687ca")
+			(uuid "a7a50501-216c-430c-92f1-6a023d1483dd")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8924d57d-dd0e-4916-aca6-d53f31364b7e")
-		(property "Reference" "Q16"
-			(at 109.22 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a565d49-1b60-46b5-ae15-f9a87f572a63")
-		)
-		(pin "7"
-			(uuid "58023231-4c84-46eb-a3fd-390b2899c848")
-		)
-		(pin "8"
-			(uuid "0c19c816-1512-44f3-be8a-66554be78b95")
-		)
-		(pin "6"
-			(uuid "390f2ce9-3ac4-408a-bb83-cfa77989be55")
-		)
-		(pin "3"
-			(uuid "f7904ecb-c2e8-405e-b927-f4649faf804a")
-		)
-		(pin "1"
-			(uuid "2388aa7f-0e3d-4709-80eb-fe99e75328cc")
-		)
-		(pin "9"
-			(uuid "84324dda-b4fe-459e-bb05-cc8f75e79420")
-		)
-		(pin "5"
-			(uuid "bf76d7a9-ecb9-451d-a8cb-136ffa9a0bd1")
-		)
-		(pin "4"
-			(uuid "a6d4a769-31bd-46db-9b05-cbed90ebbf35")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b7ccdb2-b6e1-4f84-90f9-344de85cd9e2")
-		(property "Reference" "Q7"
-			(at 109.22 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4d2689b-d7bd-4db8-b83e-23557b0f877d")
-		)
-		(pin "7"
-			(uuid "7a03bf31-10e4-4fd8-b774-3b99867a973a")
-		)
-		(pin "8"
-			(uuid "eebb1fc2-f474-4bd0-8ba5-027c288891bf")
-		)
-		(pin "6"
-			(uuid "fa25698b-9a02-424c-8738-ee6c282cff31")
-		)
-		(pin "3"
-			(uuid "b5691670-fdf4-4afb-a663-d5849142c63c")
-		)
-		(pin "1"
-			(uuid "670a9c7f-12bf-4f99-b328-3e927b63315c")
-		)
-		(pin "9"
-			(uuid "d25a492a-9ce9-48b5-9bf4-eafb56c51187")
-		)
-		(pin "5"
-			(uuid "edb2d09a-9a5c-4fa6-8e13-612adf99d2a2")
-		)
-		(pin "4"
-			(uuid "4637d696-35a4-4c2a-9630-104c0de88bc3")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q7")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8567,10 +5359,10 @@
 		(lib_id "power:+VDC")
 		(at 104.14 228.6 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e48ddd9-1f9a-43e0-8643-60341258b3b1")
 		(property "Reference" "#PWR063"
@@ -8630,148 +5422,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 101.6 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "971acbd0-f34c-4038-bb86-b9c807bd8e51")
-		(property "Reference" "R31"
-			(at 101.6 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 101.6 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25bc1f0d-742c-4f5b-8223-620a419576d2")
-		)
-		(pin "1"
-			(uuid "c4b4d8b9-acea-491c-a345-81a03ab9965b")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "977e79e2-9522-46c5-846f-09e36530e323")
-		(property "Reference" "R37"
-			(at 138.43 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3a24233-d82e-4af0-983e-733944eefb0d")
-		)
-		(pin "1"
-			(uuid "20014959-2c68-4270-b267-7cc50dd89c4c")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 54.61 279.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c8b8215-7a99-4405-88b0-1b5ba09ec729")
 		(property "Reference" "C42"
 			(at 45.466 278.638 0)
@@ -8834,224 +5491,13 @@
 		)
 	)
 	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2baa582-f90c-47a0-86f1-6da2aac91169")
-		(property "Reference" "Q20"
-			(at 146.304 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.304 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e605ebc-2c79-4854-a9fc-9bab8edfdefb")
-		)
-		(pin "7"
-			(uuid "5ca610d7-efb3-4408-aa17-b595945117e8")
-		)
-		(pin "8"
-			(uuid "8a524a1a-ecc2-499b-b75a-933737086f78")
-		)
-		(pin "6"
-			(uuid "9128d464-7539-44c9-94ee-696d86067952")
-		)
-		(pin "3"
-			(uuid "7d0bd42c-d04c-47a6-9777-c76a5aa16f65")
-		)
-		(pin "1"
-			(uuid "1c1446db-a1fd-4fe2-a505-025b3379ddda")
-		)
-		(pin "9"
-			(uuid "44ba9e7d-7a23-4474-a962-d907363071df")
-		)
-		(pin "5"
-			(uuid "365efbf7-8a8b-4272-96d2-bb0bc60907b2")
-		)
-		(pin "4"
-			(uuid "37e11b32-b0d7-4e0a-a8ac-a3e543c637e4")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 80.01 255.27 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a33ec48c-2a89-4216-a594-fdc22bd20030")
 		(property "Reference" "#PWR062"
@@ -9112,80 +5558,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 100.33 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3f653c8-7368-4d7a-88fe-6a7c71d080b2")
-		(property "Reference" "R30"
-			(at 100.33 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 100.33 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0d80c68-82f8-4026-b6ca-76635d6c7223")
-		)
-		(pin "1"
-			(uuid "a0554972-eb4a-4ba4-916b-1278780f9768")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRF4905")
 		(at 93.98 245.11 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "acea3f2d-e9ea-40e3-9392-8530e33b8b46")
 		(property "Reference" "Q10"
 			(at 100.33 243.8399 0)
@@ -9248,74 +5627,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
 					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b170ff23-82ef-4a37-a841-eca096d606b5")
-		(property "Reference" "R36"
-			(at 138.43 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6408ede-3f21-4e81-9cbc-8ea6c1aed4c0")
-		)
-		(pin "1"
-			(uuid "26dd8e40-1a2e-43a6-b287-9615967b68b9")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -9411,81 +5722,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baf8c23b-978c-4ee7-aebe-ddf6a29ccffa")
-		(property "Reference" "R33"
-			(at 138.43 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5919712d-945f-47ef-a220-11e94563a774")
-		)
-		(pin "1"
-			(uuid "292f1516-3497-4483-b832-a62f67646a76")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRF4905")
 		(at 95.25 264.16 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "bbe9df71-653b-48f7-88c6-2a0859dc519a")
 		(property "Reference" "Q11"
 			(at 99.06 265.684 0)
@@ -9554,292 +5797,13 @@
 		)
 	)
 	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbef4bfb-89e6-4800-85a1-99d8871589e7")
-		(property "Reference" "Q17"
-			(at 146.05 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.05 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88b1cf59-9331-4b40-a7ec-81d16ba4835c")
-		)
-		(pin "7"
-			(uuid "19620671-0d3e-435d-8ab0-7d91678b3f72")
-		)
-		(pin "8"
-			(uuid "87a3be37-64e4-4e8b-b728-d74ac7653636")
-		)
-		(pin "6"
-			(uuid "cba190cd-4b54-4dcf-9eb7-d3a29e05aa3a")
-		)
-		(pin "3"
-			(uuid "b1872928-0908-40bf-912f-277112f158aa")
-		)
-		(pin "1"
-			(uuid "59d6a146-0ba1-4340-aef9-b75cb3bf24a2")
-		)
-		(pin "9"
-			(uuid "82c442b6-1bb5-452e-84ab-ff67a1afb990")
-		)
-		(pin "5"
-			(uuid "9a457a98-24f6-4054-aabe-83b0611cbdf8")
-		)
-		(pin "4"
-			(uuid "735a7b33-07b2-4eb3-8dae-3f955660e6cc")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8aef09-58e8-47c6-a77e-22c1d26fe6c9")
-		(property "Reference" "R57"
-			(at 138.43 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4b54ee1-8955-4d77-87c1-b16954e02ce0")
-		)
-		(pin "1"
-			(uuid "fdadde19-de91-43a2-b87d-46d886ef1221")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 50.8 237.49 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd39fd85-dece-4c08-8a57-686fc4be2dc4")
 		(property "Reference" "#PWR060"
@@ -9899,17 +5863,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-VDC")
-		(at 129.54 118.11 180)
+		(lib_id "Device:C")
+		(at 97.79 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c374bcba-8df6-4917-a78d-8ad53ddd6a4f")
-		(property "Reference" "#PWR056"
-			(at 129.54 115.57 0)
+		(uuid "c93d161c-431c-44da-b8b0-e7eafd9ae44b")
+		(property "Reference" "C59"
+			(at 93.472 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uf"
+			(at 93.472 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 101.6 89.2048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,16 +5896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-VDC"
-			(at 129.54 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 118.11 0)
+		(property "Datasheet" "~"
+			(at 97.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,17 +5905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 129.54 118.11 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,12 +5915,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c446d15-4ac5-4310-bfe5-c11bb7363966")
+			(uuid "e9c1f814-3ee6-4c88-b275-015f22dbb056")
+		)
+		(pin "2"
+			(uuid "8ba08a45-84db-4886-88c9-bd0b50d9ba9c")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR056")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -9968,10 +5933,10 @@
 		(lib_id "power:-VDC")
 		(at 62.23 283.21 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cbeea396-874a-4c68-8457-a632f6a41578")
 		(property "Reference" "#PWR061"
@@ -10032,31 +5997,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 166.37 90)
+		(at 85.09 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d036f981-5047-45ca-b4ca-869e0bbc97dc")
-		(property "Reference" "R35"
-			(at 101.6 163.83 90)
+		(uuid "d0f1e305-9b72-42ba-b0ac-a91e785323bd")
+		(property "Reference" "R28"
+			(at 85.09 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 101.6 166.37 90)
+		(property "Value" "10R"
+			(at 85.09 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 168.148 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.09 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +6030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 166.37 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +6039,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 166.37 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,15 +6048,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9df94dc-6104-406f-8e91-9af260fb34ac")
+			(uuid "9be4033a-3ca8-4a06-8eb4-9db7c2a1d542")
 		)
 		(pin "1"
-			(uuid "656f9e08-ad1a-4436-9d30-9b217dfe78b9")
+			(uuid "dd88e110-3017-4066-928d-6be6fef2efa5")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R35")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10101,10 +6066,10 @@
 		(lib_id "power:-VDC")
 		(at 50.8 267.97 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d23ab3e2-1f4d-4cf3-b0b0-5900b36ec54e")
 		(property "Reference" "#PWR087"
@@ -10164,17 +6129,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 129.54 22.86 0)
+		(lib_id "Device:C")
+		(at 99.06 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d35b1902-78e6-4bd0-b125-c96e6abc11bb")
-		(property "Reference" "#PWR0102"
-			(at 129.54 25.4 0)
+		(uuid "d497d35a-3607-4e24-8cc1-60a50813313a")
+		(property "Reference" "C60"
+			(at 94.234 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uf"
+			(at 94.742 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 102.87 33.3248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,16 +6162,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VDC"
-			(at 129.54 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 22.86 0)
+		(property "Datasheet" "~"
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,17 +6171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 129.54 22.86 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,12 +6181,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c474fcb-4845-45f1-8ed9-cd3dd8080a96")
+			(uuid "7a8ac3b5-5ea5-4bba-8b29-a520c7c6cb68")
+		)
+		(pin "2"
+			(uuid "a8ddc06d-3db9-4be3-9849-c62fca530b50")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR0102")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -10233,10 +6199,10 @@
 		(lib_id "Device:R")
 		(at 88.9 267.97 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "db34c2ff-487b-4e87-9bf4-e366a2ca88c1")
 		(property "Reference" "R46"
 			(at 86.614 265.938 90)
@@ -10299,501 +6265,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-VDC")
-		(at 129.54 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcea977d-6895-4223-a865-e90599ab355b")
-		(property "Reference" "#PWR0104"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 129.54 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c767de7e-42b4-40ee-b5d4-cee02791bf9c")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddf063dd-9d6d-4ef2-ad05-666a74300172")
-		(property "Reference" "Q9"
-			(at 146.05 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.05 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bc8ff21-d018-4b5b-a3d3-4f96da07be5e")
-		)
-		(pin "7"
-			(uuid "77f4429b-6b36-45d9-baed-8daf4d55a51a")
-		)
-		(pin "8"
-			(uuid "bcc0f7a8-548c-4c8e-8e10-ae9d1af654b3")
-		)
-		(pin "6"
-			(uuid "b84ac40c-ebfd-4b7c-b01e-5d21e97d5949")
-		)
-		(pin "3"
-			(uuid "bc1c6005-afd8-46f8-9d2c-0ee74c565f85")
-		)
-		(pin "1"
-			(uuid "f2914a8c-ced7-4237-8fbd-352154983dcb")
-		)
-		(pin "9"
-			(uuid "6c75c266-0671-4c73-a933-4c4d386b1ff3")
-		)
-		(pin "5"
-			(uuid "0ec3332c-2a8c-4982-bfea-8ee379ae31b8")
-		)
-		(pin "4"
-			(uuid "81a87914-62f7-4517-abb4-d9300c7d92cc")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0e2e353-48ae-470a-a709-8f3686eba32f")
-		(property "Reference" "Q14"
-			(at 146.304 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.304 19.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-iaus300n08s5n014-datasheet-en.pdf"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "179252e6-3e59-45ef-8478-d82e73c2fb76")
-		)
-		(pin "7"
-			(uuid "2b37a914-dcb0-4efa-ab20-5a914b014571")
-		)
-		(pin "8"
-			(uuid "ca3400a7-a0b4-466b-8b74-8894f2f9e054")
-		)
-		(pin "6"
-			(uuid "8d30fd7f-b06f-47f5-8174-941f38d58103")
-		)
-		(pin "3"
-			(uuid "5baa0dfe-8c02-4ce1-998a-522398021879")
-		)
-		(pin "1"
-			(uuid "e21d28a4-2732-4bdd-92d3-038baa7a9e8d")
-		)
-		(pin "9"
-			(uuid "2d88325a-9a6a-4969-baa0-91944f45f0d4")
-		)
-		(pin "5"
-			(uuid "2c6d0852-4371-4875-9c61-d51391e5dd2e")
-		)
-		(pin "4"
-			(uuid "8cc91532-86c3-419e-b5a7-89cabdff803c")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 246.38 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "e318cde0-6be1-406a-ae1b-29c7e25a87fa")
 		(property "Reference" "R49"
 			(at 112.776 248.412 90)
@@ -10859,10 +6337,10 @@
 		(lib_id "Driver_FET:IR2110")
 		(at 50.8 250.19 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "e4cb9d43-de74-417a-ae25-fb7b548145f2")
 		(property "Reference" "U7"
 			(at 41.91 235.966 0)
@@ -10962,224 +6440,13 @@
 		)
 	)
 	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 146.05 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7b2a9db-03df-4a6b-8261-14970f70ff5d")
-		(property "Reference" "Q8"
-			(at 146.304 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 146.304 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ed48c2d-2ea3-42fd-9063-ddd187f6c7da")
-		)
-		(pin "7"
-			(uuid "112b970d-18a6-4396-990c-caf8d22a4074")
-		)
-		(pin "8"
-			(uuid "19896a3a-23d3-4485-acd8-09a39aea0640")
-		)
-		(pin "6"
-			(uuid "0047c7bb-4479-4d33-904b-77f16174ce75")
-		)
-		(pin "3"
-			(uuid "32aa20b6-e1e2-4b29-9c96-1d637fe1e3b8")
-		)
-		(pin "1"
-			(uuid "2fa4a47e-333f-43d9-a160-861dcb2d4046")
-		)
-		(pin "9"
-			(uuid "afacc3f7-0ac1-440d-901a-2edb0b7868fa")
-		)
-		(pin "5"
-			(uuid "6888f05a-b049-427a-afe2-c2de2d8b1fc9")
-		)
-		(pin "4"
-			(uuid "a33590ee-9875-4ecb-83fd-55b8b6da9c21")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 80.01 245.11 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "ed0ed12d-7a36-4277-bb47-a970156e26e4")
 		(property "Reference" "R43"
 			(at 80.01 247.396 90)
@@ -11243,10 +6510,10 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 148.59 255.27 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee20c301-5bfe-4864-94ac-e0953d038e11")
 		(property "Reference" "H5"
@@ -11310,10 +6577,10 @@
 		(lib_id "Device:R")
 		(at 109.22 267.97 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "f5f378c6-f01f-47a1-9afa-441c525f83fe")
 		(property "Reference" "R48"
 			(at 106.934 265.938 90)
@@ -11379,10 +6646,10 @@
 		(lib_id "Device:R")
 		(at 80.01 237.49 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6c679d3-d987-4350-b2f2-8911691382fb")
 		(property "Reference" "R42"
 			(at 80.01 239.776 90)
@@ -11443,13 +6710,80 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF4905")
-		(at 114.3 264.16 0)
+		(lib_id "Device:R")
+		(at 77.47 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
+		(uuid "f8bd8cf7-f1b7-4b0e-a397-083d21f83ad3")
+		(property "Reference" "R26"
+			(at 77.47 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 77.47 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "747080c1-ddb0-42ef-a549-a2979cf72bb5")
+		)
+		(pin "1"
+			(uuid "3f1e70d1-47e0-4030-b620-6979852c3bd5")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF4905")
+		(at 114.3 264.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f9b0aba3-15d4-4bb2-85e5-1fe10dd5cf72")
 		(property "Reference" "Q12"
 			(at 118.872 265.684 0)
@@ -11519,80 +6853,12 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc684035-1436-4f45-9f55-cf9405558845")
-		(property "Reference" "R32"
-			(at 138.43 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 138.43 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72dcab96-0ca1-4b46-a053-febbfbb52b07")
-		)
-		(pin "1"
-			(uuid "9ee27402-3a58-4edc-9fe3-97526d48a1bd")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 262.89 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "fda74d8f-9292-4109-9929-12b7e240e49a")
 		(property "Reference" "R45"
 			(at 80.01 264.922 90)
@@ -11652,213 +6918,128 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "IAUS300N08S5N014ATMA1:IAUS300N08S5N014ATMA1")
-		(at 109.22 27.94 0)
-		(unit 1)
+	(sheet
+		(at 200.66 130.81)
+		(size 44.45 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fe1ba295-e8db-4e0b-ab92-a19edbf4cfb4")
-		(property "Reference" "Q15"
-			(at 109.22 21.082 0)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44c201c1-7b77-4d71-9df0-e81a0e74ce01")
+		(property "Sheetname" "Phase_C_FET"
+			(at 200.66 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "IAUS300N08S5N0"
-			(at 109.22 19.304 0)
+		(property "Sheetfile" "phase_c_fet.kicad_sch"
+			(at 200.66 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" "IAUS300N08S5N014ATMA1:TRANS_IAUS300N08S5N014ATMA1"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "N-Channel 80V 300A _Tc_ 300W _Tc_ Surface Mount PG-HSOG-8-1"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "PowerSMD-8 Infineon Technologies"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=eda"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IAUS300N08S5N014ATMA1/Infineon/view-part/?ref=snap"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IAUS300N08S5N014ATMA1"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 80 V 300A (Tc) 300W (Tc) Surface Mount PG-HSOG-8-1"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b179aa6d-7bc8-4deb-b40a-3155f933d4f0")
-		)
-		(pin "7"
-			(uuid "8692afc4-8f9d-4ceb-b113-b9c1e01f1d32")
-		)
-		(pin "8"
-			(uuid "90b94ef1-8ac1-427b-9700-bd7812b8bc62")
-		)
-		(pin "6"
-			(uuid "9b647617-005a-4d0c-9cdf-05ffd11832a5")
-		)
-		(pin "3"
-			(uuid "cd88be6c-4d98-4439-b3a5-9e9998deb57d")
-		)
-		(pin "1"
-			(uuid "ae155498-8ff4-48d9-bb6b-f6231f26eceb")
-		)
-		(pin "9"
-			(uuid "d1e55bfe-94d0-469b-bfec-645c694a4947")
-		)
-		(pin "5"
-			(uuid "51e28293-396e-4f83-8e6e-8ace4157fe85")
-		)
-		(pin "4"
-			(uuid "b4919dd0-ed6c-4906-b9bc-39e4d8158ce2")
 		)
 		(instances
-			(project ""
+			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
-					(reference "Q15")
-					(unit 1)
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 77.47)
+		(size 44.45 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9225069e-d350-490c-a3e0-844242190371")
+		(property "Sheetname" "Phase_B_FET"
+			(at 198.12 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_b_fet.kicad_sch"
+			(at 198.12 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 16.51)
+		(size 44.45 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d04a7baa-48a3-44bc-a96a-e075eac02d69")
+		(property "Sheetname" "Phase_A_FET"
+			(at 194.31 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_a_fet.kicad_sch"
+			(at 194.31 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60"
+					(page "7")
 				)
 			)
 		)

@@ -241,7 +241,7 @@
         },
         {
           "diameter": 0.3,
-          "drill": 2.5
+          "drill": 0.25
         },
         {
           "diameter": 0.4,
@@ -261,7 +261,23 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 10,
+        "enabled": true,
+        "topLayer": 4
+      },
+      {
+        "bottomLayer": 8,
+        "enabled": true,
+        "topLayer": 6
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -697,6 +713,18 @@
     [
       "47456917-9d2b-40cb-8a9e-ce53d71da470",
       "UTILITY"
+    ],
+    [
+      "d04a7baa-48a3-44bc-a96a-e075eac02d69",
+      "Phase_A_FET"
+    ],
+    [
+      "9225069e-d350-490c-a3e0-844242190371",
+      "Phase_B_FET"
+    ],
+    [
+      "44c201c1-7b77-4d71-9df0-e81a0e74ce01",
+      "Phase_C_FET"
     ]
   ],
   "text_variables": {}

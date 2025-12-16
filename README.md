@@ -8,7 +8,7 @@ Proje, **Mitsuba M2096D** gibi yüksek verimli motorları sürmek ve araç telem
 
 * **Güçlü İşlemci:** ARM Cortex-M3 tabanlı **STM32F205VGT6** (120MHz, 1MB Flash).
 * **Yüksek Akım Kapasitesi:** Faz başına 4 adet paralel MOSFET (**4+4+4 Topolojisi**) ile düşük $R_{DS(on)}$ ve minimum ısınma.
-* **Sağlam Gate Sürüşü:** **IR2110** High/Low Side sürücüler ve her MOSFET için ayrılmış Gate dirençleri ile parazitik osilasyon koruması.
+* **Sağlam Gate Sürüşü:** **IRS21867S** High/Low Side sürücüler ve her MOSFET için ayrılmış Gate dirençleri ile parazitik osilasyon koruması.
 * **Gelişmiş İletişim:**
     * **CAN Bus:** Araç içi haberleşme için izoleli **TJA1051** arayüzü.
     * **Bluetooth:** Telemetri ve mobil ayar için **HM-10** (BLE) desteği.
@@ -20,8 +20,8 @@ Proje, **Mitsuba M2096D** gibi yüksek verimli motorları sürmek ve araç telem
 | Bileşen | Model / Değer | Açıklama |
 | :--- | :--- | :--- |
 | **MCU** | STM32F205VGT6 | Ana kontrolcü. |
-| **MOSFET** | IXTP90N15T | 150V, 90A, TO-220 (Faz başına 4x High, 4x Low). |
-| **Gate Driver** | IR2110 | 2A High/Low Side Driver. |
+| **MOSFET** | IAUS300N08S5N014  |**. |
+| **Gate Driver** | IRS21867S | 2A High/Low Side Driver. |
 | **CAN Transceiver** | TJA1051 | 5V beslemeli, yüksek hızlı CAN PHY. |
 | **Bluetooth** | HM-10 / JDY-08 | UART üzerinden BLE haberleşmesi. |
 | **USB** | Type-C (16-Pin) | CC dirençli, Device modunda çalışır. |

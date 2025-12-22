@@ -6505,28 +6505,6 @@
 			)
 		)
 	)
-	(global_label "LS_MOS_B"
-		(shape output)
-		(at 46.99 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a90bb13-1edc-435c-b5a9-264e3edaed22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5706 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HALL_A"
 		(shape input)
 		(at 132.08 153.67 0)
@@ -6611,72 +6589,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HS_MOS_A"
-		(shape output)
-		(at 60.96 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cfa15ee-9490-4616-9af4-7b4fa2ccf8ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.4196 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HS_MOS_C"
-		(shape output)
-		(at 60.96 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d945e50-3945-4560-9de8-8581316e7318")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2382 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HS_MOS_B"
-		(shape output)
-		(at 60.96 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "703a14a5-d1bb-479e-af0a-2637574ed459")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2382 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6875,50 +6787,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LS_MOS_A"
-		(shape output)
-		(at 46.99 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9eae09e6-1817-47cf-8922-6ab038cb58dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.752 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LS_MOS_C"
-		(shape output)
-		(at 46.99 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ec27e8e-4b06-4401-8f37-1b58a5ac988b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5706 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7450,6 +7318,72 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "HS_MOS_A"
+		(shape output)
+		(at 60.96 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27ab5f3e-3000-4e2a-96a5-e0bb0eeca5f8")
+	)
+	(hierarchical_label "LS_MOS_C"
+		(shape output)
+		(at 46.99 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cbbcd92-5055-4f99-bff2-8ee1d2dea025")
+	)
+	(hierarchical_label "HS_MOS_B"
+		(shape output)
+		(at 60.96 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "583fb016-3662-4591-90ff-7e58d392f586")
+	)
+	(hierarchical_label "LS_MOS_B"
+		(shape output)
+		(at 46.99 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "619e9d29-6d2e-437d-a9b9-8aa4d1203089")
+	)
+	(hierarchical_label "HS_MOS_C"
+		(shape output)
+		(at 60.96 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6df6e86-270b-44ea-9ba7-68f3cc1694ca")
+	)
+	(hierarchical_label "LS_MOS_A"
+		(shape output)
+		(at 46.99 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9092baf-2340-4dee-88e2-9ca16be8faf0")
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")

@@ -2337,6 +2337,12 @@
 		(uuid "b8b0ba71-85d9-4bf7-8c0a-02ced5e87ed8")
 	)
 	(junction
+		(at 187.96 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bacd9758-0863-435d-95dc-ab7b9ab37c1f")
+	)
+	(junction
 		(at 113.03 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,6 +2377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef79b28e-4f98-4c32-adc9-66122e722fea")
+	)
+	(junction
+		(at 198.12 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb54874-a654-4b67-8640-a41fc8e38fbe")
 	)
 	(wire
 		(pts
@@ -2461,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "194dd660-d3a0-4ccc-a9ef-1d4d5cfb1813")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ffb8e8-b93f-4dfa-bdf5-31d0946964dc")
 	)
 	(wire
 		(pts
@@ -2584,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 109.22) (xy 187.96 121.92)
+			(xy 187.96 109.22) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2994,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 114.3) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a910adc3-4d68-463e-9d43-a03eab1c1bd1")
+	)
+	(wire
+		(pts
 			(xy 189.23 109.22) (xy 187.96 109.22)
 		)
 		(stroke
@@ -3114,6 +3146,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 114.3) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf91997c-4c73-40ec-bb83-98f1d375e508")
+	)
+	(wire
+		(pts
 			(xy 199.39 72.39) (xy 200.66 72.39)
 		)
 		(stroke
@@ -3124,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 198.12 121.92)
+			(xy 198.12 109.22) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3261,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "ee4f8e52-8400-446e-811f-7ea73025a280")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef57ff61-cdab-4c52-a775-831a6f51b2eb")
 	)
 	(wire
 		(pts
@@ -3517,7 +3569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 225.552 148.59 90)
 			(effects
 				(font
@@ -4006,6 +4058,101 @@
 		)
 	)
 	(symbol
+		(lib_id "OpenMD:R_US")
+		(at 193.04 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526f51d8-f7cf-422f-ad70-1713ce93735e")
+		(property "Reference" "R70"
+			(at 193.04 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1mR"
+			(at 193.04 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 193.294 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3W"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ASR-M-3-0.5F"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "106ebcfe-ac6e-4c39-b77e-8c246660f78f")
+		)
+		(pin "1"
+			(uuid "7d859161-9b03-4f07-a547-96d6d292c121")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OpenMD:C_Small")
 		(at 173.99 152.4 0)
 		(unit 1)
@@ -4196,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 225.552 156.21 90)
 			(effects
 				(font

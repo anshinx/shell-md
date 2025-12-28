@@ -4512,10 +4512,6 @@
 		(uuid "21fc6faf-81e8-436e-9bc2-0c3defc3a4b6")
 	)
 	(no_connect
-		(at 124.46 72.39)
-		(uuid "23c66915-bbc7-4cda-91e5-234d1f2495ea")
-	)
-	(no_connect
 		(at 124.46 105.41)
 		(uuid "244a1962-4d52-4fcb-8d4d-9bc087464e12")
 	)
@@ -4634,10 +4630,6 @@
 	(no_connect
 		(at 124.46 146.05)
 		(uuid "dd0f1452-9fcf-41e3-b675-e8df37afae61")
-	)
-	(no_connect
-		(at 73.66 113.03)
-		(uuid "e15e68bf-26e6-47f6-bee6-06828c198734")
 	)
 	(no_connect
 		(at 124.46 168.91)
@@ -6571,7 +6563,7 @@
 			)
 		)
 	)
-	(global_label "Current_Sense_B"
+	(global_label "Current Sense_B"
 		(shape input)
 		(at 124.46 69.85 0)
 		(fields_autoplaced yes)
@@ -6875,6 +6867,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PANIC STOP"
+		(shape input)
+		(at 73.66 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae170547-8126-41c3-836e-183b20157dff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.3657 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7231,7 +7245,7 @@
 			)
 		)
 	)
-	(global_label "Current_Sense_A"
+	(global_label "Current Sense_A"
 		(shape input)
 		(at 124.46 67.31 0)
 		(fields_autoplaced yes)
@@ -7266,6 +7280,28 @@
 		(uuid "f97cd741-1443-4daf-8fa9-fbc101e6d3ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.06 22.9591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current Sense_C"
+		(shape input)
+		(at 124.46 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fba33822-48fd-4b80-be64-81b91f8fe65f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1689 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

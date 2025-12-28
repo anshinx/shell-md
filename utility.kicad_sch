@@ -7896,7 +7896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 53.34 25.7048 0)
 			(effects
 				(font

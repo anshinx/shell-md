@@ -2213,6 +2213,12 @@
 		(uuid "1b092884-5e7e-415f-b673-37d01d3a86d2")
 	)
 	(junction
+		(at 205.74 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2475237c-da54-422f-a7f6-48174f3b47bf")
+	)
+	(junction
 		(at 121.92 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2351,6 +2357,12 @@
 		(uuid "ce8fdb5f-702a-4682-ae5c-5bb1680d941e")
 	)
 	(junction
+		(at 215.9 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93a885f-9379-468a-8181-c43543d2a7e3")
+	)
+	(junction
 		(at 109.22 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2471,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "254875da-0747-4afb-be65-d5f95659aa7c")
+	)
+	(wire
+		(pts
+			(xy 215.9 113.03) (xy 215.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9242d2-f35e-4ee6-bec0-2ed6d843066d")
 	)
 	(wire
 		(pts
@@ -2724,7 +2746,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 215.9 119.38)
+			(xy 205.74 113.03) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4d1ba2-683b-46bd-9524-bd512737b7bc")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 215.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 205.74 119.38)
+			(xy 205.74 106.68) (xy 205.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3114,6 +3146,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 113.03) (xy 215.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5e5386-473f-4e79-b600-4bb6994b95cf")
+	)
+	(wire
+		(pts
 			(xy 121.92 67.31) (xy 132.08 67.31)
 		)
 		(stroke
@@ -3121,6 +3163,16 @@
 			(type default)
 		)
 		(uuid "cd154b96-e003-40da-bd58-19eb22df6bf2")
+	)
+	(wire
+		(pts
+			(xy 205.74 113.03) (xy 207.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbc4ab1-0cae-414f-9650-3e938ee3b32b")
 	)
 	(wire
 		(pts
@@ -4115,6 +4167,101 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/44c201c1-7b77-4d71-9df0-e81a0e74ce01"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:R_US")
+		(at 210.82 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a211675-3631-4bf7-b839-01c5f2fbefa5")
+		(property "Reference" "R72"
+			(at 210.82 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1mR"
+			(at 210.82 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 211.074 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3W"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ASR-M-3-0.5F"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bd35b81-05ef-405f-b334-ea45a74243a5")
+		)
+		(pin "1"
+			(uuid "fd85d4e5-ec51-48b0-bb01-0b69e012bd8b")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/44c201c1-7b77-4d71-9df0-e81a0e74ce01"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 243.332 146.05 90)
 			(effects
 				(font
@@ -6002,7 +6149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 243.332 153.67 90)
 			(effects
 				(font

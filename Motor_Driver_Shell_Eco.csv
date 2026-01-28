@@ -6,7 +6,7 @@
 5;"C6,C4,C5";"C_Radial_D6.3mm_H11.0mm_P2.50mm";3;"10uF / 100V";;;
 6;"C54,C37,C26,C56,C48,C36,C50,C51,C53,C41,C47,C24,C18,C21,C20,C23";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";16;"100nF";;;
 7;"C16";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"15nF";;;
-8;"C39,C40,C88,C90,C89,C57";"C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2";6;"4.7uF";;;
+8;"C39,C40,C88,C90,C57";"C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2";5;"4.7uF";;;
 9;"R22";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"120R";;;
 10;"J7,J10,J12,J3";"PinSocket_1x02_P2.00mm_Horizontal";4;"Conn_01x02";;;
 11;"R15,R14,R10,R25,R9,R24,R16";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";7;"4.7K";;;
@@ -37,7 +37,7 @@
 36;"U5,U13,U11";"SOT-23-8_Handsoldering";3;"INA241A2";;;
 37;"U12";"SOT-23-6";1;"TMP101";;;
 38;"Q1";"SOT-23";1;"BC817";;;
-39;"C45";"C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal";1;"100nF";;;
+39;"C45";"C_1210_3225Metric_Pad1.33x2.70mm_HandSolder";1;"100nF";;;
 40;"U9,U10,U6";"SOIC-8_3.9x4.9mm_P1.27mm";3;"IRS21867S";;;
 41;"R6";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"46k";;;
 42;"C7";"CP_Radial_D10.0mm_P5.00mm";1;"470uF/25V";;;
@@ -47,8 +47,8 @@
 46;"SW1,SW2";"SW_PUSH_6mm_H8mm";2;"SW_Push";;;
 47;"Y1";"Crystal_HC18-U_Vertical";1;"8MHz";;;
 48;"R8";"R_0402_1005Metric_Pad0.72x0.64mm_HandSolder";1;"10K";;;
-49;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal";1;"220K";;;
-50;"R66,R61,R38";"R_2512_6332Metric_Pad1.40x3.35mm_HandSolder";3;"1mR";;;
+49;"C89";"C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2";1;"100nF";;;
+50;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal";1;"220K";;;
 51;"R21";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"260";;;
 52;"R20";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"4.7K";;;
 53;"R18,R17,R19";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"2.2K";;;
@@ -73,5 +73,6 @@
 72;"C65,C66,C78,C81,C80,C79,C70,C63,C73,C74,C72,C64,C67,C71,C77";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";15;"100nF";;;
 73;"C62,C76,C61,C69,C68,C75";"C_1210_3225Metric_Pad1.33x2.70mm_HandSolder";6;"10uF";;;
 74;"D4,D7,D5";"D_SMA";3;"US1M";;;
-75;"C58,C59,C60";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"100uf";;;
-76;"J1";"PinSocket_1x04_P2.00mm_Vertical";1;"I2C EKRAN";;;
+75;"R70,R61,R66,R71,R38,R72";"R_2512_6332Metric_Pad1.40x3.35mm_HandSolder";6;"1mR";;;
+76;"C58,C59,C60";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"100uf";;;
+77;"J1";"PinSocket_1x04_P2.00mm_Vertical";1;"I2C EKRAN";;;

@@ -2968,12 +2968,6 @@
 		(uuid "dae5075d-8087-438e-8ba3-31757ccfb9e2")
 	)
 	(junction
-		(at 41.91 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfbdab88-bf09-410a-86ea-46d6778e05ec")
-	)
-	(junction
 		(at 135.89 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2984,12 +2978,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9461dce-7c32-4e47-9b3b-4ba923401029")
-	)
-	(junction
-		(at 52.07 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec1e67ed-fa39-4db0-8de7-bf49a37075bd")
 	)
 	(junction
 		(at 240.03 53.34)
@@ -3020,16 +3008,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc67de87-1116-4058-bf03-98d9cb52ea57")
-	)
-	(wire
-		(pts
-			(xy 49.53 78.74) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01331709-4eef-443b-9014-1ac65811e5cb")
 	)
 	(wire
 		(pts
@@ -3253,16 +3231,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 44.45 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "503c8fdb-a94e-4176-8ed0-d96a679575a0")
-	)
-	(wire
-		(pts
 			(xy 78.74 142.24) (xy 78.74 144.78)
 		)
 		(stroke
@@ -3310,16 +3278,6 @@
 			(type default)
 		)
 		(uuid "55460aa0-ec4a-433d-86df-a725fd719d46")
-	)
-	(wire
-		(pts
-			(xy 41.91 81.28) (xy 41.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5675718c-5741-4bd5-8631-4688c370d230")
 	)
 	(wire
 		(pts
@@ -3680,16 +3638,6 @@
 			(type default)
 		)
 		(uuid "9d0d42d5-192a-48ee-a746-8f1bde577b59")
-	)
-	(wire
-		(pts
-			(xy 52.07 78.74) (xy 52.07 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d3dcac-693d-4301-b8b1-6027930dcc73")
 	)
 	(wire
 		(pts
@@ -5516,72 +5464,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-VDC")
-		(at 41.91 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50bcde37-9d75-4579-a0f3-66d4b6177c64")
-		(property "Reference" "#PWR041"
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 41.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 41.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2eaab22d-8bd1-4f14-8062-ced565e3b609")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2204K-5.0")
 		(at 64.77 107.95 0)
 		(unit 1)
@@ -5719,74 +5601,6 @@
 			(project ""
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "636bf76d-3193-48aa-9056-e25cc5f3fa82")
-		(property "Reference" "NT6"
-			(at 46.99 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92669a68-5276-4edb-b43e-50fe4e1eefc0")
-		)
-		(pin "2"
-			(uuid "703ac1b8-c317-40cb-af71-17893a8cc5de")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
-					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -6128,72 +5942,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8077ec73-3378-45e1-8ea0-a98b94aefe7f")
-		(property "Reference" "#PWR042"
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7df72e16-2d62-452d-927e-6b8fd51757a9")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6966,73 +6714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b52f04a4-dc50-4951-b074-bd0c08a025f4")
-		(property "Reference" "#FLG06"
-			(at 40.005 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 38.1 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9819f276-c0d7-41b2-9295-5d722a70504d")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 119.38 0)
 		(unit 1)
@@ -7570,73 +7251,6 @@
 			(project ""
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 52.07 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0d74bf0-dda4-4127-9d33-b443458f0a11")
-		(property "Reference" "#FLG07"
-			(at 53.975 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 55.88 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffc2ea3-8baf-4a1f-a38e-e688b8905159")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/50738c10-df11-4c1b-b08b-4685e06e61bf"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)

@@ -3384,7 +3384,7 @@
 		)
 		(uuid "d0ffe626-d1d4-4985-bbc7-19d59e159c09")
 	)
-	(global_label "Current Sense_C"
+	(global_label "Current_Sense_C"
 		(shape input)
 		(at 222.25 157.48 0)
 		(fields_autoplaced yes)

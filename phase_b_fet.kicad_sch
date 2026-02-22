@@ -866,113 +866,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OpenMD:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1657,6 +1550,387 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WP-BUTR:WP-BUTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 3.302 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "WP-BUTR"
+				(at 3.302 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WP-BUTR:WP-BUTR_7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WP-BUTR_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end -1.27 3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2042,107 +2316,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 72.39 41.91)
@@ -2199,6 +2372,12 @@
 		(uuid "f30ec999-aa30-4aae-ac0d-69a4ed3b1bb0")
 	)
 	(junction
+		(at 219.71 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "002a061a-bc00-45bd-a994-ef84dc84a4ed")
+	)
+	(junction
 		(at 62.23 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2227,12 +2406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e478abb-6adb-423d-bf6a-7c33d26e5b5d")
-	)
-	(junction
-		(at 218.44 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "413e038d-30e3-42b7-96b1-231ccfc92fc0")
 	)
 	(junction
 		(at 198.12 130.81)
@@ -2355,22 +2528,10 @@
 		(uuid "da2afd81-5289-484f-ab8b-9745904243d9")
 	)
 	(junction
-		(at 179.07 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbb56c19-17a1-4643-ba9b-d5e5918c105f")
-	)
-	(junction
 		(at 186.69 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8dd3355-1078-4889-8417-5172e1c530b3")
-	)
-	(junction
-		(at 187.96 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee833d07-764b-4a0b-bc8f-91e1ae222374")
 	)
 	(junction
 		(at 74.93 69.85)
@@ -2646,26 +2807,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 83.82) (xy 187.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d757a1-5966-4688-bb58-d3a9faf22df0")
-	)
-	(wire
-		(pts
-			(xy 187.96 74.93) (xy 187.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46dc2cb7-0551-4ccc-80f6-e8d0d4fefa31")
-	)
-	(wire
-		(pts
 			(xy 187.96 127) (xy 187.96 130.81)
 		)
 		(stroke
@@ -2693,26 +2834,6 @@
 			(type default)
 		)
 		(uuid "4e278058-2753-4564-b498-13efa6c7efcb")
-	)
-	(wire
-		(pts
-			(xy 227.33 144.78) (xy 218.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4efb59bf-357a-4454-9247-916ef463018b")
-	)
-	(wire
-		(pts
-			(xy 187.96 74.93) (xy 205.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563171f5-dda7-4331-954d-0333f40f908c")
 	)
 	(wire
 		(pts
@@ -2756,7 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 144.78) (xy 207.01 144.78)
+			(xy 207.01 144.78) (xy 219.71 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 187.96 74.93)
+			(xy 168.91 74.93) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3283,6 +3404,16 @@
 			(type default)
 		)
 		(uuid "e953acbb-24de-40bb-a971-8f6e128a70b5")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4d983b-c632-4d44-ac6d-57365f481b90")
 	)
 	(wire
 		(pts
@@ -4386,6 +4517,175 @@
 		)
 	)
 	(symbol
+		(lib_id "WP-BUTR:WP-BUTR")
+		(at 220.98 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb48377-9434-4a25-8211-dcef64524559")
+		(property "Reference" "MP2"
+			(at 226.06 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Phase_B"
+			(at 226.06 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WP-BUTR:WP-BUTR_7460307"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7460307"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8efc7f3f-0cb2-4f23-ae06-8214dba1482c")
+		)
+		(pin "3"
+			(uuid "bb1b9ed2-5831-4893-8250-31e870198a7d")
+		)
+		(pin "4"
+			(uuid "2b6cf42c-af04-42a6-b2bf-5a74217d0c13")
+		)
+		(pin "8"
+			(uuid "6e4604a6-d705-4a73-afd0-15a28a306094")
+		)
+		(pin "1"
+			(uuid "16e0275f-a7fb-4bdc-94b8-d11aa50e17b8")
+		)
+		(pin "5"
+			(uuid "f4babdea-64c6-49be-8c60-6dd7624c13f4")
+		)
+		(pin "6"
+			(uuid "8ff39dac-b5d6-468d-9a77-8c05f5abbb39")
+		)
+		(pin "7"
+			(uuid "b1476123-d551-49b5-acd0-774b55d6e01b")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
+					(reference "MP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 113.03 59.69 0)
 		(unit 1)
@@ -4577,7 +4877,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6453f97a-7e12-4c8f-8661-26fa9716f2f6")
+		(uuid "79d8295d-626b-497a-82b9-6e09308d0d31")
 		(property "Reference" "#PWR055"
 			(at 170.18 147.32 0)
 			(effects
@@ -4587,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3F"
 			(at 162.56 147.3199 90)
 			(effects
 				(font
@@ -4624,7 +4924,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0685a6bd-51a3-4dde-8a7a-8628d78b1d05")
+			(uuid "cf566e43-3b34-45cf-91a0-d74e6f94dad7")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
@@ -4636,35 +4936,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 218.44 59.69 270)
+		(lib_id "power:-VDC")
+		(at 167.64 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8355095f-e589-4c6e-95ff-811049817be8")
-		(property "Reference" "H4"
-			(at 222.25 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHASE_B"
-			(at 222.25 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
-			(at 218.44 59.69 0)
+		(uuid "7f54b096-38f9-412b-b1ce-3ddaa6fe2507")
+		(property "Reference" "#PWR056"
+			(at 167.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,8 +4954,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 218.44 59.69 0)
+		(property "Value" "-VDC"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,8 +4971,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 218.44 59.69 0)
+		(property "Datasheet" ""
+			(at 167.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 167.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,12 +4990,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "396f89f3-5296-48f9-92d3-4e3199ff2cc6")
+			(uuid "b695ca82-d178-4c94-bf37-8515a0c7a609")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
-					(reference "H4")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5378,72 +5677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb56d7f3-3d0f-497a-b434-b4d570073c84")
-		(property "Reference" "#PWR0104"
-			(at 218.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dc15300-dc04-416b-9329-9b2c558e3a3c")
-		)
-		(instances
-			(project ""
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 234.95 163.83 270)
 		(unit 1)
@@ -5462,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3F"
 			(at 238.76 163.8299 90)
 			(effects
 				(font
@@ -5571,6 +5804,72 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 219.71 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91528e6-b6a4-4dd8-a977-4a2b231ae007")
+		(property "Reference" "#PWR0104"
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ed1c62-fad7-4ac8-8620-ced45e6fbcdd")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6227,73 +6526,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece56e87-e066-4833-ba77-15dc36f9c277")
-		(property "Reference" "#PWR056"
-			(at 161.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61fe69ed-e60a-40fa-833b-51db783605bc")
-		)
-		(instances
-			(project ""
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/9225069e-d350-490c-a3e0-844242190371"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)

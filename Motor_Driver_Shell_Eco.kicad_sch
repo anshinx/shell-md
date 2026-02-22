@@ -106,13 +106,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 71.12) (xy 170.18 71.12)
+			(xy 147.32 68.58) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b4e09b3-37bc-4277-8ffd-d33d57e3ba7a")
+		(uuid "3b33a94a-1e11-4e7f-beb9-7149cd079d1d")
 	)
 	(wire
 		(pts
@@ -123,16 +123,6 @@
 			(type default)
 		)
 		(uuid "8882e921-9407-4bb7-9ac4-0d230c3e3dd7")
-	)
-	(wire
-		(pts
-			(xy 147.32 68.58) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e96a6fe-a362-46b6-8720-a30c5875aad4")
 	)
 	(wire
 		(pts
@@ -154,9 +144,19 @@
 		)
 		(uuid "e0c022f5-0855-4d47-af5d-7ede5a81e805")
 	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ca0735-d5c2-4467-87e9-f5fdfb093cb2")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 157.48 0)
+		(at 180.34 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -165,7 +165,7 @@
 		(fields_autoplaced yes)
 		(uuid "04cefe9a-c7d7-44c4-96b6-9c74e3a04ad7")
 		(property "Reference" "H8"
-			(at 205.74 156.2099 0)
+			(at 182.88 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 158.7499 0)
+			(at 182.88 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 203.2 157.48 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 157.48 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +201,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 157.48 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +220,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 197.3937 157.451 0)
+		(at 179.6137 152.371 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -229,7 +229,7 @@
 		(fields_autoplaced yes)
 		(uuid "05b331c2-95e9-4e5b-8863-47118fd7c0f6")
 		(property "Reference" "H9"
-			(at 199.9337 156.1809 0)
+			(at 182.1537 151.1009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +238,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 199.9337 158.7209 0)
+			(at 182.1537 153.6409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +247,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 197.3937 157.451 0)
+			(at 179.6137 152.371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 197.3937 157.451 0)
+			(at 179.6137 152.371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -265,7 +265,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 197.3937 157.451 0)
+			(at 179.6137 152.371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +284,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 212.09 157.48 0)
+		(at 180.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -293,7 +293,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1f8ed9-97d0-4bfe-b4c6-7bbfccd0e995")
 		(property "Reference" "H3"
-			(at 214.63 156.2099 0)
+			(at 182.88 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,7 +302,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 214.63 158.7499 0)
+			(at 182.88 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +311,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 212.09 157.48 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 157.48 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,7 +329,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 212.09 157.48 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,16 +348,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 187.1417 158.9307 0)
+		(at 180.34 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ff431dd-fc2e-4531-829c-b36499f8f74f")
-		(property "Reference" "H10"
-			(at 189.6817 157.6606 0)
+		(uuid "34da5e7c-0796-4ed9-80bf-bf585c9c9213")
+		(property "Reference" "H6"
+			(at 182.88 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,7 +366,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 189.6817 160.2006 0)
+			(at 182.88 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +375,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 187.1417 158.9307 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.1417 158.9307 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +393,71 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 187.1417 158.9307 0)
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff431dd-fc2e-4531-829c-b36499f8f74f")
+		(property "Reference" "H10"
+			(at 181.61 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 181.61 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,6 +469,70 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed9521cc-0d0b-4ce1-9d98-4e20c4b87ea3")
+		(property "Reference" "H4"
+			(at 182.88 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -555,7 +683,7 @@
 			)
 		)
 		(pin "HS_MOS_B" output
-			(at 170.18 68.58 180)
+			(at 170.18 71.12 180)
 			(uuid "67630c9a-ea48-490a-91be-48d5e5b95831")
 			(effects
 				(font
@@ -565,7 +693,7 @@
 			)
 		)
 		(pin "HS_MOS_C" output
-			(at 170.18 77.47 180)
+			(at 170.18 80.01 180)
 			(uuid "9444e62c-c78c-431e-b6a9-8de4cf491076")
 			(effects
 				(font
@@ -585,7 +713,7 @@
 			)
 		)
 		(pin "LS_MOS_B" output
-			(at 170.18 71.12 180)
+			(at 170.18 68.58 180)
 			(uuid "2444b613-4390-4626-bb8b-c659e1acc7bb")
 			(effects
 				(font
@@ -595,7 +723,7 @@
 			)
 		)
 		(pin "LS_MOS_C" output
-			(at 170.18 80.01 180)
+			(at 170.18 77.47 180)
 			(uuid "cbc388af-e365-4fe2-9208-55fdd969ff1d")
 			(effects
 				(font

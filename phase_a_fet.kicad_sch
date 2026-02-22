@@ -866,113 +866,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OpenMD:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1657,6 +1550,387 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WP-BUTR:WP-BUTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 3.302 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "WP-BUTR"
+				(at 3.302 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WP-BUTR:WP-BUTR_7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WP-BUTR_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end -1.27 3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2042,107 +2316,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 88.9 34.29)
@@ -2259,12 +2432,6 @@
 		(uuid "419fed03-0d73-4995-bc62-3f0a3edc53bd")
 	)
 	(junction
-		(at 218.44 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "462e09c0-b7e2-4869-b64f-4f8b76db95ba")
-	)
-	(junction
 		(at 236.22 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2307,6 +2474,12 @@
 		(uuid "899f1e1d-e3db-425f-a7e4-971de9257f8c")
 	)
 	(junction
+		(at 255.27 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99ea4492-2199-4d86-b7b7-635c8e3cf368")
+	)
+	(junction
 		(at 212.09 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2343,12 +2516,6 @@
 		(uuid "cf4492b1-ee19-4346-910a-64af36a0a943")
 	)
 	(junction
-		(at 256.54 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd20eacb-b096-43e7-af3c-1cc2142a844c")
-	)
-	(junction
 		(at 224.79 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2373,12 +2540,6 @@
 		(uuid "f2fa516d-ba58-43f7-9fc2-f68789cb621b")
 	)
 	(junction
-		(at 226.06 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f72c6880-7bad-443d-b83d-4b31b4ec6b76")
-	)
-	(junction
 		(at 226.06 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2393,16 +2554,6 @@
 			(type default)
 		)
 		(uuid "04ff8999-d9bc-4f1f-81e7-ea5f5182e091")
-	)
-	(wire
-		(pts
-			(xy 224.79 45.72) (xy 224.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060dd901-3a97-4367-9b4a-1bbd28a6e247")
 	)
 	(wire
 		(pts
@@ -2476,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 137.16) (xy 256.54 137.16)
+			(xy 245.11 137.16) (xy 255.27 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2576,6 +2727,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 45.72) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315461fd-b9d7-4760-995b-31397df371c4")
+	)
+	(wire
+		(pts
 			(xy 226.06 123.19) (xy 226.06 129.54)
 		)
 		(stroke
@@ -2643,16 +2804,6 @@
 			(type default)
 		)
 		(uuid "4453645f-3f58-43df-b083-3e2bae876f83")
-	)
-	(wire
-		(pts
-			(xy 226.06 76.2) (xy 226.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456dfdd2-173f-4155-891c-36072b58a847")
 	)
 	(wire
 		(pts
@@ -2916,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 50.8) (xy 254 50.8)
+			(xy 224.79 50.8) (xy 256.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3126,16 +3277,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 50.8) (xy 224.79 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20b6270-f69e-4cf5-820b-fcd6dc3f8be9")
-	)
-	(wire
-		(pts
 			(xy 218.44 101.6) (xy 226.06 101.6)
 		)
 		(stroke
@@ -3143,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "b25778a3-a26c-40ed-a5da-ef7fd86c00b1")
-	)
-	(wire
-		(pts
-			(xy 226.06 66.04) (xy 243.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be0c1b96-1c1e-4a3b-a5e9-05bbd5a455e6")
 	)
 	(wire
 		(pts
@@ -3196,16 +3327,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 226.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb706d8b-335a-40a6-9e24-c26f26ee7983")
-	)
-	(wire
-		(pts
 			(xy 129.54 41.91) (xy 142.24 41.91)
 		)
 		(stroke
@@ -3216,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 66.04) (xy 226.06 66.04)
+			(xy 207.01 66.04) (xy 243.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3256,13 +3377,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 137.16) (xy 245.11 137.16)
+			(xy 255.27 137.16) (xy 265.43 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9a7881d-07ba-47cf-8ec9-75f9d78e12bc")
+		(uuid "db7e8d1c-71a9-4fd4-8387-a5f21e9c14a1")
 	)
 	(wire
 		(pts
@@ -3323,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "e009372b-ee4e-41aa-8309-363ab4d10064")
+	)
+	(wire
+		(pts
+			(xy 224.79 50.8) (xy 224.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b59481-4d26-4795-a063-b2476bb9e671")
 	)
 	(wire
 		(pts
@@ -3470,6 +3601,73 @@
 			(justify right)
 		)
 		(uuid "af8b2ee3-c2cc-4b10-94dd-e54972f79f2d")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 273.05 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032d38e5-dd35-4d03-80b8-bda75474c59b")
+		(property "Reference" "#PWR0120"
+			(at 269.24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3F"
+			(at 276.86 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d90022e1-4c62-4fdc-8ac5-2d50ebd19f62")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3670,73 +3868,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 256.54 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "197473e9-e1e9-4fab-aa6f-7eacfa9b6eb1")
-		(property "Reference" "H6"
-			(at 260.35 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PHASE_A"
-			(at 260.35 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
-			(at 256.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 256.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f7f75fd-56ba-4161-8c07-6b0aa82ae908")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -4040,43 +4171,45 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 256.54 137.16 180)
+		(lib_id "WP-BUTR:WP-BUTR")
+		(at 261.62 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e8fc233-12ab-467e-9251-8291a1e55d25")
-		(property "Reference" "#PWR0119"
-			(at 256.54 130.81 0)
+		(uuid "53ca79f6-7774-4187-95cf-25d3d6e2eae6")
+		(property "Reference" "MP1"
+			(at 266.7 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 256.54 132.08 0)
+		(property "Value" "Phase_A"
+			(at 266.7 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 137.16 0)
+		(property "Footprint" "WP-BUTR:WP-BUTR_7460307"
+			(at 261.62 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 137.16 0)
+			(at 261.62 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,22 +4217,123 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 137.16 0)
+		(property "Description" ""
+			(at 261.62 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7460307"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c53e147d-8f20-40a6-907c-960c843c9bdd")
+		)
+		(pin "3"
+			(uuid "b1b50472-2b89-4de0-bc2b-327683ca264e")
+		)
+		(pin "4"
+			(uuid "f8df0bbd-e9de-4cdd-b57b-f11bfe0c89ac")
+		)
+		(pin "8"
+			(uuid "eb6f54e8-82c3-438e-b1f3-5dce8e664e95")
 		)
 		(pin "1"
-			(uuid "9265d2ee-d166-418e-921b-86a77cb84be8")
+			(uuid "3e796646-aed0-4ccd-aa3c-dce13031cba0")
+		)
+		(pin "5"
+			(uuid "80c70cc5-7a9d-404e-be15-74f32e12425c")
+		)
+		(pin "6"
+			(uuid "05b9a87c-81ca-4dd9-8487-57baebefb1fd")
+		)
+		(pin "7"
+			(uuid "660536db-ca0b-4031-89c6-c22fd40d1810")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
-					(reference "#PWR0119")
+					(reference "MP1")
 					(unit 1)
 				)
 			)
@@ -4316,6 +4550,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681e63c4-0bda-41a3-95da-ad88a59d137f")
+		(property "Reference" "#PWR0117"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3F"
+			(at 200.66 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9272710-9412-4d27-81fa-3091e43ffd60")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 67.31 52.07 0)
 		(unit 1)
@@ -4380,73 +4681,6 @@
 			(project ""
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
 					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 204.47 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b7380aa-5370-4c20-a7ed-b8396ddaa839")
-		(property "Reference" "#PWR0117"
-			(at 208.28 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 200.66 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e691e267-fb56-45d4-a478-4ad181033a32")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5135,17 +5369,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 153.67 270)
+		(lib_id "power:-VDC")
+		(at 255.27 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a52f9f92-99a0-4933-bad5-5a1953150bd3")
-		(property "Reference" "#PWR0118"
-			(at 199.39 153.67 0)
+		(uuid "a569d303-4314-4b52-9c47-997c6d830012")
+		(property "Reference" "#PWR088"
+			(at 255.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,17 +5387,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 201.93 153.6699 90)
+		(property "Value" "-VDC"
+			(at 255.27 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 153.67 0)
+			(at 255.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 153.67 0)
+			(at 255.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,8 +5413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 153.67 0)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 255.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,12 +5423,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "edbd05cb-1d76-428d-a866-5fff4aeab4b3")
+			(uuid "5e2503be-a0b9-4381-86b7-ba0fbeffd423")
 		)
 		(instances
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
-					(reference "#PWR0118")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5550,6 +5783,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 205.74 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd976129-cf5c-4980-b5d2-d7141ca80351")
+		(property "Reference" "#PWR0118"
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 205.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "048197bc-2044-4e6d-827a-1789dbe011e2")
+		)
+		(instances
+			(project "Motor_Driver_Shell_Eco"
+				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 52.07 0)
 		(unit 1)
@@ -5777,73 +6076,6 @@
 			(project "Motor_Driver_Shell_Eco"
 				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
 					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 273.05 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deaa5382-54e8-4d96-ae65-5c187c0a143c")
-		(property "Reference" "#PWR0120"
-			(at 269.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 276.86 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 273.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fc88654-6b79-4aee-ba4e-6d497df07382")
-		)
-		(instances
-			(project "Motor_Driver_Shell_Eco"
-				(path "/63ef3b9c-05f1-4b00-812a-fede2372efc7/7c8dbef5-e40c-461c-862c-3f756f947d60/d04a7baa-48a3-44bc-a96a-e075eac02d69"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)

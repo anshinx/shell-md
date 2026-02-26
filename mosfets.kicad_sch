@@ -5423,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 53.34 52.2329 180)
+		(at 53.34 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5432,7 +5432,7 @@
 		(fields_autoplaced yes)
 		(uuid "83724262-7edf-43e2-be93-db111144792c")
 		(property "Reference" "#PWR0101"
-			(at 53.34 49.6929 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 53.34 59.8529 0)
+			(at 53.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 52.2329 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 52.2329 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 53.34 52.2329 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

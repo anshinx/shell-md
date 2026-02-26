@@ -68,7 +68,12 @@
           "width": 0.35
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|163230000|78547500|ce09d903-8c94-4d22-8e96-bb265dde16c3|00000000-0000-0000-0000-000000000000",
+          "12V converter default"
+        ]
+      ],
       "meta": {
         "version": 2
       },

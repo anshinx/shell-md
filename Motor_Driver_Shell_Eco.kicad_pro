@@ -575,7 +575,7 @@
       "plot": "GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Motor_Driver_Shell_Eco.step",
       "svg": "",
       "vrml": ""
     },
